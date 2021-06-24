@@ -11,6 +11,27 @@ Item firstItem = items.first();
 
 This then streams all of the items in your inventory and will allow you to filter on those to return the desired item.
 
+### Caching
+
+Caching refers to the act of storing something in it's state at present to refer to later. This is used a lot in scripts to save processing the calls again.
+
+However, the moment you cache something, it's out of date and no longer live. If you've cached an npc and the npc has moved, referring to your cachedNpc.tile() won't be the same as recalling the npc.
+
+```java
+//non cached call
+if(ctx.npcs.toStream().name("Bob").first().valid() && ctx.npcs.toStream().name("Bob").first().inViewport()){
+	//execute
+        }
+
+//cached call
+Npc bob = ctx.npcs.toStream().name("Bob").first();
+if(bob.valid() && bob.inViewport()){
+	//execute
+        }
+```
+
+in the non cached call, I'm iterating the npc stream twice for the same npc. VS  the cached call which iterates the npc stream once and you access this cached npc.
+
 ### Filtering
 
 The act of filtering will remove the items from our inventory which don't meet the criteria provided. Removing said items are the way we can filter down to a group of items which share the same criteria, e.g. all iron ore to drop.
