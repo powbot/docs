@@ -1,9 +1,6 @@
-# Inventory Interacting
+# Inventory Interactions
 
 This page's aim is to walk you through different types of inventory interactions and how you can use them in real scenarios.
-
-On this page we'll have
-
 
 ## Eating food
 
