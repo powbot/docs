@@ -10,4 +10,10 @@
 * [Locations](/Basic_Fundamentals/Locations)
 
 ## Fundamentals In Practice
-* [Inventory Interacting](/Fundamentals_In_Practice/InventoryInteracting)
+* [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
+* [Object Interactions](/Fundamentals_In_Practice/ObjectInteractions)
+* [Npc Interactions](/Fundamentals_In_Practice/NpcInteractions)
+* [GroundItem Interactions](/Fundamentals_In_Practice/GroundItemInteractions)
+* [Using Waits](/Fundamentals_In_Practice/UsingWaits)
+* [Widget Interactions](/Fundamentals_In_Practice/WidgetInteractions)
+* [World Hopping](/Fundamentals_In_Practice/WorldHopping)
