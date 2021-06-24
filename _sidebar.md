@@ -1,3 +1,4 @@
-- Getting started
+<!-- docs/_sidebar.md -->
 
-  - [Quick start](quickstart.md)
+* [Home](/)
+* [Basic Fundamentals](/Basic_Fundamentals)
