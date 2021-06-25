@@ -1,6 +1,9 @@
 # docs
 
 ## Basic Fundamentals
+
+These are the basics on how to use the API. There is much more in the API than what is covered here but we'll be adding to these as we go along.
+
 * [Stream API](/Basic_Fundamentals/StreamAPI)
 * [Items](/Basic_Fundamentals/Items)
 * [Objects](/Basic_Fundamentals/Objects)
@@ -10,6 +13,9 @@
 * [Locations](/Basic_Fundamentals/Locations)
 
 ## Fundamentals In Practice
+
+In this section we'll talk through how to use the API in real scenarios offering snippets so you can put it into practice, see how it works and learn from it.
+
 * [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
 * [Object Interactions](/Fundamentals_In_Practice/ObjectInteractions)
 * [Npc Interactions](/Fundamentals_In_Practice/NpcInteractions)
