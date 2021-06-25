@@ -1,2 +1,3 @@
-* [Home](/)
-* [Basic Fundamentals](/Basic_Fundamentals)
+- Getting started
+
+  - [Basic Fundamentals](/Basic_Fundamentals)
