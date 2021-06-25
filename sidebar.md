@@ -1,5 +1,4 @@
 - Getting started
-
   - ###Basic Fundamentals
     * [Stream API](/Basic_Fundamentals/StreamAPI)
     * [Items](/Basic_Fundamentals/Items)
