@@ -21,13 +21,13 @@ However, the moment you cache something, it's out of date and no longer live. If
 //non cached call
 if(ctx.npcs.toStream().name("Bob").first().valid() && ctx.npcs.toStream().name("Bob").first().inViewport()){
 	//execute
-        }
+}
 
 //cached call
 Npc bob = ctx.npcs.toStream().name("Bob").first();
 if(bob.valid() && bob.inViewport()){
 	//execute
-        }
+}
 ```
 
 in the non cached call, I'm iterating the npc stream twice for the same npc. VS  the cached call which iterates the npc stream once and you access this cached npc.

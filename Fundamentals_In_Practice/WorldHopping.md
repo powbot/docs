@@ -29,7 +29,7 @@ Random.nextInt is inclusive exclusive, this means that it will generate a number
 So now, you should be able to select which world you wish to hop to; mine is defined below.
 
 ```java
-  int randomWorld = f2p[Random.nextInt(0, f2p.length-1)]; 
+int randomWorld = f2p[Random.nextInt(0, f2p.length-1)]; 
 ```
 Rather than generate a random number first as I did above, I've done it in one line, I've also used f2p.length-1 meaning if I ever add more worlds, I don't need to increase the max random index to generate. We also -1 because it's base 0 meaning the first item is index 0 rather than 1 so each index is shifted back 1.
 

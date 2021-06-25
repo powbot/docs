@@ -9,17 +9,17 @@ Previously in the Basic Fundamentals section, we talked through how to stream th
 
 Most Npc's will have a different ID depending on their model, you can have multiple ID's for all the different goblin ID's out there. So when it comes to filtering Npc's I like to use names rather than ID's.
 ```java
-    public String npcName = "Goblin";
+public String npcName = "Goblin";
 ```
 Now I've have the name declared, lets filter them and attack the pesky goblins.
 
 ```java
 public String npcName = "Goblin";
- Npc goblin = ctx.objects.toStream().name(npcName).nearest().first();
-		if (goblin.inViewport()){
-		    goblin.interact("Attack", npcName);
-		    Condition.wait(()->!ctx.players.local().interacting().healthBarVisible(),150,10);
-		}
+Npc goblin = ctx.objects.toStream().name(npcName).nearest().first();
+if (goblin.inViewport()){
+	goblin.interact("Attack", npcName);
+	Condition.wait(()->!ctx.players.local().interacting().healthBarVisible(),150,10);
+}
 ```
 So lets break down my filters.
 

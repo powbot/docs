@@ -10,16 +10,16 @@ Previously in the Basic Fundamentals section, we talked through how to stream th
 So I've started off by declaring the ID's of the ore I want to mine. Objects change ID's usually depending on what state they're in. For example, a depleted ore is differnt to a ready to mine ore.
 An open door is a different ID to a closed door etc etc.
 ```java
-    public static final int[] ironOre = {11364, 11365};
+public static final int[] ironOre = {11364, 11365};
 ```
 Now I've have them defined, I want to mine them.
 
 ```java
- GameObject rock = ctx.objects.toStream().within(2).id(ironOre).nearest().first();
-		if (rock.inViewport()){
-		    rock.interact("Mine","Rocks");
-		    Condition.wait(()->ctx.objects.toStream().at(rock.tile()).id(main.oreIDs).isEmpty(),150,50);
-		}
+GameObject rock = ctx.objects.toStream().within(2).id(ironOre).nearest().first();
+if (rock.inViewport()){
+	rock.interact("Mine","Rocks");
+	Condition.wait(()->ctx.objects.toStream().at(rock.tile()).id(main.oreIDs).isEmpty(),150,50);
+}
 ```
 So lets break down my filters.
 
