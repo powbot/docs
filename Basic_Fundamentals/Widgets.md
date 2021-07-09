@@ -1,8 +1,8 @@
 # Widgets
 
-Widgets are on screen components/interfaces. Such as the chat box, game tabs, world map etc etc.
+Widgets are on screen components/interfaces such as the chat box, game tabs, world map, etc etc.
 
-Widgets is the main umbrella parent to components. For example the widget 218 is the magic spell book, inside this widget are all of the spell on screen components.
+Widgets are the main umbrella parent to components. For example the widget 218 is the magic spell book. Inside this widget are all of the spell on screen components.
 
 Widgets can be returned one of two ways currently. 
 
@@ -11,6 +11,7 @@ Widgets can be returned one of two ways currently.
 
 ### Filtering the Widget Stream
 Filtering the stream is the same as any other topic under the Stream API.
+
 ```java
 Component component = ctx.widgets.toStream().id(162).text("Click here to continue").viewable.first();
 ```

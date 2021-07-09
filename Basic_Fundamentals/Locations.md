@@ -25,6 +25,7 @@ Area area = new Area(topLeft, bottomRight);
 ```
 
 These areas are useful for checking if you or something is in them. For example you might set an area where something spawns, like black chins. You could then check the area to see if it contains any black chins.
+
 ```java
 Boolean areaContainsBlackChins = area.containsOrIntersects(blackChins);
 ```
@@ -34,7 +35,8 @@ Here I used containsOrIntersects as if it's on the border, it's not technically 
 ## Polygonal Areas
 
 Polygonal areas work exactly the same, except it takes multiple tiles passed to it to create the polygon.
-Take this polygonal area of the arceuus essence mine;
+Take this polygonal area of the Arceuus essence mine;
+
 ```java
 public Area MINE_AREA = new Area(
 new Tile(1766, 3872, 0),
@@ -51,4 +53,4 @@ new Tile(1746, 3864, 0),
 new Tile(1753, 3870, 0),
 new Tile(1760, 3871, 0));
 ```
-Here you see the setup of the area is no difference except it takes more tiles to create the polygon.
+Here you see the setup of the area has no difference except it takes more tiles to create the polygon.
