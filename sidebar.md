@@ -14,5 +14,5 @@
     * [Npc Interactions](/Fundamentals_In_Practice/NpcInteractions)
     * [GroundItem Interactions](/Fundamentals_In_Practice/GroundItemInteractions)
     * [Using Waits](/Fundamentals_In_Practice/UsingWaits)
-    * [Widget Interactions](/Fundamentals_In_Practice/WidgetInteractions)
+    * [Widget Interactions](/Fundamentals_In_Practice/WidgetInteracting)
     * [World Hopping](/Fundamentals_In_Practice/WorldHopping)
