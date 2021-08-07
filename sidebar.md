@@ -16,3 +16,4 @@
     * [Using Waits](/Fundamentals_In_Practice/UsingWaits)
     * [Widget Interactions](/Fundamentals_In_Practice/WidgetInteracting)
     * [World Hopping](/Fundamentals_In_Practice/WorldHopping)
+    * [Walking](/Fundamentals_In_Practice/WalkingToLocations)
