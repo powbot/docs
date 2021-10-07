@@ -9,7 +9,7 @@ Previously in the Basic Fundamentals section, we talked through how to stream th
 
 ```java
 String foodName = "Lobster";
-if (ctx.game.tab(INVENTORY)) {
+if (Game.tab(INVENTORY)) {
 	
 }
 ```
@@ -19,8 +19,8 @@ So now we know the inventory is open, we need to stream our food item.
 
 ```java
 String foodName = "Lobster";
-if(ctx.game.tab(INVENTORY)){
-	Item lobster = ctx.inventory.toStream().name(foodName).first();
+if(Game.tab(INVENTORY)){
+	Item lobster = Inventory.stream().name(foodName).first();
 }
 ```
 
@@ -28,8 +28,8 @@ So, now we've filtered our inventory stream for any item with the name "Lobster"
 
 ```java
 String foodName = "Lobster";
-if (ctx.game.tab(INVENTORY)) {
-	Item lobster = ctx.inventory.toStream().name(foodName).first();
+if (Game.tab(INVENTORY)) {
+	Item lobster = Inventory.stream().name(foodName).first();
 	lobster.interact("Eat");
 }
 ```
@@ -43,8 +43,8 @@ This uses the same first step, always check your inventory is open and THEN inte
 
 ```java
 String itemName = "Knife";
-if (ctx.game.tab(INVENTORY)) {
-	Item knife = ctx.inventory.toStream().name(itemName).first();
+if (Game.tab(INVENTORY)) {
+	Item knife = Inventory.stream().name(itemName).first();
 	knife.interact("Use");
 }
 ```
@@ -57,7 +57,7 @@ To combine items, for example knife on logs, you have to go through the Selectin
 Your inventory has a selectedItem() property which you can access like so:
 
 ```java
-Item selectedItem = ctx.inventory.selectedItem();
+Item selectedItem = Inventory.selectedItem();
 ```
 
 With this, you can check things like it's index, name, id, etc. So, now we need to see if we have anything selected before we try to select the knife.
@@ -65,8 +65,8 @@ With this, you can check things like it's index, name, id, etc. So, now we need 
 To do so, you'll have to check the selectedItem() properties for the id() to see if it's null (-1 in this case being an integer).
 
 ```java
-Item selectedItem = ctx.inventory.selectedItem();
-if (ctx.inventory.selectedItem().id() == -1) {
+Item selectedItem = Inventory.selectedItem();
+if (Inventory.selectedItem().id() == -1) {
 	system.out.println("Nothing selected");
 } else {
 	system.out.println("Item selected: " + selectedItem.name());
@@ -78,12 +78,12 @@ In the above snippet, if there is nothing selected it'll print out "Nothing sele
 ```java
 String itemName = "Knife";
 String itemName2 = "Oak Logs";
-if (ctx.game.tab(INVENTORY)) {
-	Item knife = ctx.inventory.toStream().name(itemName).first();
-	Item log = ctx.inventory.toStream().name(itemName2).first();
-	if (ctx.inventory.selectedItem().id() == -1) {
+if (Game.tab(INVENTORY)) {
+	Item knife = Inventory.stream().name(itemName).first();
+	Item log = Inventory.stream().name(itemName2).first();
+	if (Inventory.selectedItem().id() == -1) {
 		knife.interact("Use");
-	} else if (ctx.inventory.selectedItem().id() == knife.id()) {
+	} else if (Inventory.selectedItem().id() == knife.id()) {
 		log.interact("Use");
 	}
 }
@@ -98,12 +98,12 @@ Rather than a knife and log, I'll use raw lobster on a range. The only main diff
 ```java
 String itemName = "Raw lobster";
 String objectName = "Range";
-if (ctx.game.tab(INVENTORY)) {
-	Item lobster = ctx.inventory.toStream().name(itemName).first();
-	GameObject range = ctx.objects.toStream().name(objectName).first();
-	if (ctx.inventory.selectedItem().id() == -1) {
+if (Game.tab(INVENTORY)) {
+	Item lobster = Inventory.stream().name(itemName).first();
+	GameObject range = Objects.stream().name(objectName).first();
+	if (Inventory.selectedItem().id() == -1) {
 		knife.interact("Use");
-	} else if (ctx.inventory.selectedItem().id() == knife.id()) {
+	} else if (Inventory.selectedItem().id() == knife.id()) {
 		range.interact("Use");
 	}
 }

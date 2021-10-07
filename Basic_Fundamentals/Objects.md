@@ -20,6 +20,6 @@ To filter objects you first need to return the stream, see the StreamAPI section
 
 ```java
 int DOOR_ID = 1509;
-GameObject door = ctx.objects.toStream().id(DOOR_ID).first();
+GameObject door = Objects.stream().id(DOOR_ID).first();
 ```
 In this scenario, we have cached the GameObject of a door.

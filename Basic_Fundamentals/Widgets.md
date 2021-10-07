@@ -13,7 +13,7 @@ Widgets can be returned one of two ways currently.
 Filtering the stream is the same as any other topic under the Stream API.
 
 ```java
-Component component = ctx.widgets.toStream().id(162).text("Click here to continue").viewable.first();
+Component component = Widgets.stream().id(162).text("Click here to continue").viewable.first();
 ```
 
 You'll notice I'm accessing the widget stream, then filtering on the text "Click here to continue", then filtering again on viewable, meaning it's currently present on screen, then returning the first one which meets this criteria.
@@ -26,7 +26,7 @@ This can be filtered on the text to help locate the one you need.
 Once you have your widget and component, you can refer to it in a static manner like so;
 
 ```java
-Component component = ctx.widgets.widget(162).component(5);
+Component component = Widgets.widget(162).component(5);
 ```
 
 While the code seems simpler, in the long run, it's better to use the stream as you can dynamically return the component you need. OSRS often changes internal component ID's so 162, 5, in a months time, might be 162, 8.

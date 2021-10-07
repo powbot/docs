@@ -19,6 +19,6 @@ To filter an item you first need to return the stream, see the StreamAPI section
 
 ```java
 int GP_ID = 995;
-Item gp = ctx.inventory.toStream().id(GP_ID).first();
+Item gp = Inventory.stream().id(GP_ID).first();
 ```
 In this scenario, we have cached the item in our inventory.

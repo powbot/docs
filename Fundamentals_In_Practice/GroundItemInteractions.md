@@ -14,7 +14,7 @@ public String[] wantedItems = {"Cowhide", "Bones", "Raw beef"};
 Now I've have them defined, I want to loot them.
 
 ```java
-GroundItem groundItem = ctx.groundItems.toStream().within(15).name(wantedItems).nearest().first();
+GroundItem groundItem = GroundItems.stream().within(15).name(wantedItems).nearest().first();
 if (groundItem.inViewport()){
 	groundItem.interact("Take", groundItem.name());
 }
@@ -35,11 +35,11 @@ Don't forget to set a wait otherwise you'll spam like mad.
 Here I firstly check the count of the item on the floor. There could be 4 sets of cowhides so by checking if cowhide is empty it will get stuck waiting.
 
 ```java
-GroundItem groundItem = ctx.groundItems.toStream().within(15).name(wantedItems).nearest().first();
+GroundItem groundItem = GroundItems.stream().within(15).name(wantedItems).nearest().first();
 if (groundItem.inViewport()) {
-	int invCount = ctx.groundItems.toStream().id(groundItem.id()).at(groundItem.Tile()).count();	
+	int invCount = GroundItems.stream().id(groundItem.id()).at(groundItem.Tile()).count();	
 	groundItem.interact("Take", groundItem.name());
-	Condition.wait(() -> ctx.groundItems.toStream().id(groundItem.id()).at(groundItem.Tile()).count() < invCount, 50, 150);
+	Condition.wait(() -> GroundItems.stream().id(groundItem.id()).at(groundItem.Tile()).count() < invCount, 50, 150);
 }
 ```
 
@@ -54,7 +54,7 @@ With them being flat on the tile I've suggested to interact with the tile itself
 This is a little bit of a hacky work around but it works wonders some times and we start off the exact same way. We still need to find and cache our mark of grace and check that it's in the viewport.
 
 ```java
-GroundItem groundItem = ctx.groundItems.toStream().within(10).name("Mark of grace").nearest().first();
+GroundItem groundItem = GroundItems.stream().within(10).name("Mark of grace").nearest().first();
 if (groundItem.inViewport()){
 	
 }
@@ -66,16 +66,16 @@ The second is the wait. As marks of grace only spawn 1 at a time you can just ch
 
 ```java
 groundItem.tile().matrix(ctx).interact("Take", "Mark of grace");
-Condition.wait(() -> ctx.groundItems.toStream().id(groundItem.id()).at(groundItem.tile()).isEmpty(), 150, 50);
+Condition.wait(() -> GroundItems.stream().id(groundItem.id()).at(groundItem.tile()).isEmpty(), 150, 50);
 ```
 
 So that makes the whole snippet:
 
 ```java
-GroundItem groundItem = ctx.groundItems.toStream().within(10).name("Mark of grace").nearest().first();
+GroundItem groundItem = GroundItems.stream().within(10).name("Mark of grace").nearest().first();
 if (groundItem.inViewport()) {
 	groundItem.tile().matrix(ctx).interact("Take", "Mark of grace");
-	Condition.wait(() -> ctx.groundItems.toStream().id(groundItem.id()).at(groundItem.tile()).isEmpty(), 150, 50);
+	Condition.wait(() -> GroundItems.stream().id(groundItem.id()).at(groundItem.tile()).isEmpty(), 150, 50);
 }
 ```
 

@@ -19,6 +19,6 @@ To filter a npcs you first need to return the stream, see the StreamAPI section 
 
 ```java
 int HANS_ID = 3105;
-Npc hans = ctx.npcs.toStream().id(HANS_ID).first();
+Npc hans = Npcs.stream().id(HANS_ID).first();
 ```
 In this scenario, we have cached the npc hans.

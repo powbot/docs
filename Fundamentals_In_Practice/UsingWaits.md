@@ -30,10 +30,10 @@ Take this snippet here, someone on discord asked how to slow down the script bec
 I first filter and select the raw chicken, then have a conditional wait which returns true if exited early, inside of an if-statement to then use it on the cooking pot.
 
 ```java
-Item rawChicken = ctx.inventory.toStream().id(Constants.RAW_CHICKEN).first();
+Item rawChicken = Inventory.stream().id(Constants.RAW_CHICKEN).first();
 rawChicken.interact("Use");
-if (Condition.wait() -> ctx.inventory.selectedItem().id() == Constants.RAW_CHICKEN, 150, 10)) {
-	GameObject cookingPot = ctx.objects.toStream().id(Constants.COOKING_POT).nearest().first();
+if (Condition.wait() -> Inventory.selectedItem().id() == Constants.RAW_CHICKEN, 150, 10)) {
+	GameObject cookingPot = Objects.stream().id(Constants.COOKING_POT).nearest().first();
 	cookingPot.interact("Use");
 }
  ```
@@ -53,10 +53,10 @@ So, here's how I handle all of that using waits as my best friend.
 So, I'll first cache the tree and then interact with it
 
 ```java
-GameObject tree = ctx.objects.toStream().within(10).name(main.treeName).nearest().first();
+GameObject tree = Objects.stream().within(10).name(main.treeName).nearest().first();
 if (tree.inViewport()) {
 	tree.interact("Chop down", main.treeName);
-	Condition.wait(() -> ctx.players.local().animation() != -1 && !ctx.players.local().inMotion(), 100, 20);
+	Condition.wait(() -> Players.local().animation() != -1 && !Players.local().inMotion(), 100, 20);
 }
 ```
 So, here I've added a conditional wait to check if my animation is not -1, which is the idle animation, meaning I'm cutting the tree AND I'm not in motion, meaning my ID can't be that of someone running as they would be in motion.
@@ -67,11 +67,11 @@ However, this is where I change it up and add the second. I now need to know if 
 If not, then I don't want to wait any longer as I may have misclicked and need to click on the tree again.
 
 ```java
-GameObject tree = ctx.objects.toStream().within(10).name(main.treeName).nearest().first();
+GameObject tree = Objects.stream().within(10).name(main.treeName).nearest().first();
 if (tree.inViewport()) {
 	tree.interact("Chop down", main.treeName);
-	if (Condition.wait(() -> ctx.players.local().animation() != -1 && !ctx.players.local().inMotion(), 100, 20)){
-		Condition.wait(() -> ctx.objects.toStream().at(tree.tile()).id(tree.id()).isEmpty() || ctx.inventory.toStream().count() == 28, 250, 20);
+	if (Condition.wait(() -> Players.local().animation() != -1 && !Players.local().inMotion(), 100, 20)){
+		Condition.wait(() -> Objects.stream().at(tree.tile()).id(tree.id()).isEmpty() || Inventory.stream().count() == 28, 250, 20);
 	}
 }
 ```

@@ -16,7 +16,7 @@ In my MLM script I use a static widget to return the number of pay-dirt in the s
 
 That widget is defined in my script as so;
 ```java
-public Component SACK_COUNT = ctx.widgets.widget(382).component(3).component(2);
+public Component SACK_COUNT = Widgets.widget(382).component(3).component(2);
 ```
 I can then in my tasks refer to the value of the text by using the following:
 ```java
@@ -47,9 +47,9 @@ C: Wait till the inventory is open
 ### Disclaimer, there's an entire magic API, this is just an example.
 
 ```Java
-if(ctx.widgets.widget(spellBookWidget).component(highAlchComponent).visible()){
-	ctx.widgets.widget(spellBookWidget).component(highAlchComponent).click();
-	Condition.wait(()->ctx.game.tab()==Game.Tab.INVENTORY, 150, 10);
+if(Widgets.widget(spellBookWidget).component(highAlchComponent).visible()){
+	Widgets.widget(spellBookWidget).component(highAlchComponent).click();
+	Condition.wait(()->Game.tab()==Game.Tab.INVENTORY, 150, 10);
 }
 ```
 
@@ -62,8 +62,8 @@ You can do this just like querying in any of the other API streams.
 ```Java
 public int spellBookWidget = 218;
 public int varrockSpellTexture = 27;
-if(ctx.components.toStream().widget(spellBookWidget).texture(varrockSpellTexture).viewable().isNotEmpty()){
-	ctx.components.toStream().widget(spellBookWidget).texture(varrockSpellTexture).viewable().first().click();
+if(Components.stream().widget(spellBookWidget).texture(varrockSpellTexture).viewable().isNotEmpty()){
+	Components.stream().widget(spellBookWidget).texture(varrockSpellTexture).viewable().first().click();
 }
 ```
 

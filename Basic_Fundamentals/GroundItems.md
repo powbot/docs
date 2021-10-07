@@ -20,6 +20,6 @@ To filter a grounditem you first need to return the stream, see the StreamAPI se
 
 ```java
 int GP_ID = 995;
-GroundItem gp = ctx.groundItems.toStream().id(GP_ID).first();
+GroundItem gp = GroundItems.stream().id(GP_ID).first();
 ```
 In this scenario, we have cached the grounditem of coins from the floor.

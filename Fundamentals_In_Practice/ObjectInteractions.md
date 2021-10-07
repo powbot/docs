@@ -17,10 +17,10 @@ public static final int[] ironOre = {11364, 11365};
 Now that I have them defined, I want to mine them.
 
 ```java
-GameObject rock = ctx.objects.toStream().within(2).id(ironOre).nearest().first();
+GameObject rock = Objects.stream().within(2).id(ironOre).nearest().first();
 if (rock.inViewport()) {
 	rock.interact("Mine", "Rocks");
-	Condition.wait(() -> ctx.objects.toStream().at(rock.tile()).id(main.oreIDs).isEmpty(), 150, 50);
+	Condition.wait(() -> Objects.stream().at(rock.tile()).id(main.oreIDs).isEmpty(), 150, 50);
 }
 ```
 So, let's break down my filters.
