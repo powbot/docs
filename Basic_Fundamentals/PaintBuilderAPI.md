@@ -72,3 +72,12 @@ PaintBuilder.newBuilder()
     .removeScriptNameVersion()
     .build()
 ```
+
+### Disabling Discord progress uploads
+By default when calling the PaintBuilder progress reports will be sent to the progress-reports channel in the Powbot discord. If you want to disable this default functionality you need to call the `withoutDiscordWebhook()` as part of your builder.
+
+```java
+PaintBuilder.newBuilder()
+    .withoutDiscordWebhook()
+    .build()
+```
