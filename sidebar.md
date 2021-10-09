@@ -7,6 +7,7 @@
     * [Widgets](/Basic_Fundamentals/Widgets)
     * [Waits](/Basic_Fundamentals/Waits)
     * [Locations](/Basic_Fundamentals/Locations)
+    * [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
 
   - ### Fundamentals In Practice
     * [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
