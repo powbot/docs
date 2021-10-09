@@ -18,6 +18,21 @@ PaintBuilder.newBuilder()
     .build();
 ```
 
+### Adding paint
+Once you have built your paint using the PaintBuilder API you need to call `addPaint` function which takes a type of `Paint` which your PaintBuilder returns
+
+```java
+@Override
+public void onStart() {
+    Paint paint = PaintBuilder.newBuilder()
+        .x(40)
+        .y(45)
+        .trackSkill(Skill.Fishing)
+        .build()
+    addPaint(paint);
+}
+```
+
 ### Custom Strings
 To add a custom string to the output paint you can call the `addString()` function like so
 
