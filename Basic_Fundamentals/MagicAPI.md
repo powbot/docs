@@ -41,3 +41,11 @@ You can check whether a spell is ready to be casted by using the `ready()` funct
 ```java
 boolean spellIsReady = Magic.ready(Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY)
 ```
+
+There are some caveats to this approach, a spell will only be ready if the spellbook is open. If the spellbook is not open it will always return false. You can wrap this in a conditional to ensure the Magic book is open when performing the check
+
+```java
+if (Condition.wait(() -> Game.tab(Game.Tab.MAGIC), 50, 10)) {
+    boolean spellIsReady = Magic.ready(Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY)
+}
+```
