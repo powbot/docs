@@ -46,6 +46,6 @@ There are some caveats to this approach, a spell will only be ready if the spell
 
 ```java
 if (Condition.wait(() -> Game.tab(Game.Tab.MAGIC), 50, 10)) {
-    boolean spellIsReady = Magic.ready(Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY)
+    boolean spellIsReady = Magic.ready(Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY);
 }
 ```
