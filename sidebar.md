@@ -9,6 +9,7 @@
     * [Locations](/Basic_Fundamentals/Locations)
     * [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
     * [Magic API](/Basic_Fundamentals/MagicAPI)
+    * [Bank API](/Basic_Fundamentals/BankAPI)
 
   - ### Fundamentals In Practice
     * [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
