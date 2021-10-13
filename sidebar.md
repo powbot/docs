@@ -10,6 +10,7 @@
     * [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
     * [Magic API](/Basic_Fundamentals/MagicAPI)
     * [Bank API](/Basic_Fundamentals/BankAPI)
+    * [Grand Exchange API](/Basic_Fundamentals/GrandExchangeAPI)
 
   - ### Fundamentals In Practice
     * [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
