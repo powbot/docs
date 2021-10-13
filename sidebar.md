@@ -8,6 +8,7 @@
     * [Waits](/Basic_Fundamentals/Waits)
     * [Locations](/Basic_Fundamentals/Locations)
     * [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
+    * [Magic API](/Basic_Fundamentals/MagicAPI.md)
 
   - ### Fundamentals In Practice
     * [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
