@@ -46,6 +46,21 @@ int amountToDeposit = 12;
 Bank.deposit(itemName, Bank.Amount.ALL);
 ```
 
+## Depositing with exceptions
+Sometimes you may want to deposit all items except for a specific item e.g a pickaxe when you're mining. The Bank API offers a function called `depositAllExcept()` that does exactly this.
+
+```java
+Bank.depositAllExcept("item1", "item2", "item3");
+```
+```java
+int id1 = 122;
+int id2 = 145;
+int id3 = 198;
+
+Bank.depositAllExcept(id1, id2, id3);
+```
+
+
 ## Checking if the bank is in the viewport
 Before interacting with the bank you check if the bank is in the current viewport you can do this by calling the `inViewport` function.
 
@@ -65,7 +80,7 @@ if (Bank.inViewport()) {
 ```
 
 ## Retrieving the nearest bank
-To get the nearest bank you can call `Bank.nearest()` which will return a Locatable type if it can be found.
+To get the nearest bank you can call `Bank.nearest()` however the bank must be loaded for this to work, so if you're in a cave `Bank.nearest()` will return null. `Bank.nearest()` returns a Locatable type if a bank can be found.
 
 ```java
 Locatable nearestBank = Bank.nearest();
