@@ -30,6 +30,14 @@ Here I use 2 waits, I use the first one, wrapped in an if statement as it return
 The first wait is shorter so if it fails, it'll loop again and try to walk to the furnace. The second wait is longer to give us change to get to the furnace
 and move on to the next task without spam clicking the map.
 
+### Using Run
+If you want your script to run between locations you can set a lower and upper bounding for the energy required to run. A random number between runMin and runMax will be calculated which will then be used to trigger running between locations. 
+
+```java
+Tile myTile = new Tile(3101, 3431, 0);
+Movement.builder(myTile).setRunMin(45).setRunMax(75).move();
+```
+
 ## Web Walking
 
 Web walking, put simply, is an all-in-one solution to navigating the game. You provide the destination and then the method handles the rest.

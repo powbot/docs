@@ -11,6 +11,7 @@ These are the basics on how to use the API. There is much more in the API than w
 * [Widgets](/Basic_Fundamentals/Widgets)
 * [Waits](/Basic_Fundamentals/Waits)
 * [Locations](/Basic_Fundamentals/Locations)
+* [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
 
 ## Fundamentals In Practice
 

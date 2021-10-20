@@ -32,7 +32,7 @@ I first filter and select the raw chicken, then have a conditional wait which re
 ```java
 Item rawChicken = Inventory.stream().id(Constants.RAW_CHICKEN).first();
 rawChicken.interact("Use");
-if (Condition.wait() -> Inventory.selectedItem().id() == Constants.RAW_CHICKEN, 150, 10)) {
+if (Condition.wait(() -> Inventory.selectedItem().id() == Constants.RAW_CHICKEN, 150, 10)) {
 	GameObject cookingPot = Objects.stream().id(Constants.COOKING_POT).nearest().first();
 	cookingPot.interact("Use");
 }
