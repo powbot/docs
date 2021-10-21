@@ -3,8 +3,7 @@
 Events are dispatched both as a result of in game event changes and client event changes. The list of events currently supported are:
 
 - BreakEvent
-  - Called 5 seconds before a break is about to start, you can delay a break by calling `event.delay(millis)`. Please note that you can only delay the execution of a break once.
-- GameActionEvent
+  - Called 5 seconds before a break is about to start, you can delay a break by calling `event.delay(millis)`.
   - Called whenever you perform an ingame action
 - InventoryChangeEvent
   - Called whenever your players inventory changes
