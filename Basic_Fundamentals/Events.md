@@ -27,7 +27,7 @@ Events are dispatched both as a result of in game event changes and client event
 
 You can also click [here](https://docs.powbot.org/jdocs/app/org.powbot.api.event/index.html) to see the relevant java docs.
 
-**It is very important that any methods you have which subscribe to events don't have any blocking logic and execute fast. Having code like `Condition.wait { !Players.local().isIdle() }` will cause the client not to function correctly, methods which handle events should just be used to update state rather than perform any interactions/sleeps.**
+**It is very important that any methods you have which subscribe to events don't have any blocking logic and execute fast. Having code like `Condition.wait { !Players.local().isIdle() }` will cause the client to not function correctly, methods which handle events should just be used to update state rather than perform any interactions/sleeps.**
 
 ## Subscribing to an event
 
