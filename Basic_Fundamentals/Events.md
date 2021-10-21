@@ -34,6 +34,8 @@ You can also click [here](https://docs.powbot.org/jdocs/app/org.powbot.api.event
 Subscribing to an event is simple, you just need to annotate a method which takes the event you wish to subscribe to with the `@Subscribe` annotation, for example:
 
 ```kotlin
+    var returned = 0
+    
     @com.google.common.eventbus.Subscribe
     fun onInventoryChange(change: InventoryChangeEvent) {
         if (change.quantityChange > 0 && change.itemName == "Book of arcane knowledge") {
@@ -46,6 +48,8 @@ Placing this method inside the body of your main script class will work, however
 
 ```kotlin
 class SomeTask: Task {
+    var returned = 0
+    
     @com.google.common.eventbus.Subscribe
     fun onInventoryChange(change: InventoryChangeEvent) {
         if (change.quantityChange > 0 && change.itemName == "Book of arcane knowledge") {
