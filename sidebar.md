@@ -12,6 +12,7 @@
     * [Bank API](/Basic_Fundamentals/BankAPI)
     * [Grand Exchange API](/Basic_Fundamentals/GrandExchangeAPI)
     * [Events](/Basic_Fundamentals/Events)
+    * [Interaction Types](/Basic_Fundamentals/InteractionTypes)
 
   - ### Fundamentals In Practice
     * [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
