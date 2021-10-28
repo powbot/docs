@@ -13,6 +13,7 @@ These are the basics on how to use the API. There is much more in the API than w
 * [Locations](/Basic_Fundamentals/Locations)
 * [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
 * [Events](/Basic_Fundamentals/Events)
+* [Interaction Types](/Basic_Fundamentals/InteractionTypes)
 
 ## Fundamentals In Practice
 
