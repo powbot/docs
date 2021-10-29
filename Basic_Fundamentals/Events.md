@@ -24,7 +24,7 @@ Events are dispatched both as a result of in game event changes and client event
 - VarpbitChangedEvent 
   - Called whenever a varpbit changes in game
 - PaintCheckboxChangedEvent
-  - Called whenever someone toggles a checkbox in a paint, has the current checked value.
+  - Called whenever someone toggles a checkbox in a paint, has the current checked value and the id of the checkbox.
 
 You can also click [here](https://docs.powbot.org/jdocs/app/org.powbot.api.event/index.html) to see the relevant java docs.
 
