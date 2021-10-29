@@ -93,6 +93,17 @@ PaintBuilder.newBuilder()
 ```
 Shown here is me storing the user selected method to a variable 'useMethod' and displaying it on the paint.
 
+#### Adding A CheckBox
+
+If you wanted to add a checkbox to turn on/off certain features you can do so by doing the following:
+```java
+PaintBuilder.newBuilder()
+    .addCheckbox("Draw Tiles", "drawTiles", true)
+    .build()
+```
+
+The first argument is the text to display next to the checkbox, the second is the id to associate with the checkbox and the third is the default state for the checkbox. When a user interacts with the checkbox a `PaintCheckboxChangedEvent` will be sent, you should write an event handler to intercept this.
+
 ### Remove Script Version
 The paint builder automatically shows the script version from the `ScriptManifest` to remove this default behaviour you can call the `removeScriptNameVersion()` function.
 
