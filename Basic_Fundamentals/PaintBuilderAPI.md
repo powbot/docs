@@ -93,8 +93,7 @@ PaintBuilder.newBuilder()
 ```
 Shown here is me storing the user selected method to a variable 'useMethod' and displaying it on the paint.
 
-#### Adding A CheckBox
-
+### Adding A CheckBox
 If you wanted to add a checkbox to turn on/off certain features you can do so by doing the following:
 ```java
 PaintBuilder.newBuilder()
