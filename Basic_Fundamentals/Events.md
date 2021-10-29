@@ -23,6 +23,8 @@ Events are dispatched both as a result of in game event changes and client event
   - Called whenever a touch press/drag/release occurs
 - VarpbitChangedEvent 
   - Called whenever a varpbit changes in game
+- PaintCheckboxChangedEvent
+  - Called whenever someone toggles a checkbox in a paint, has the current checked value.
 
 You can also click [here](https://docs.powbot.org/jdocs/app/org.powbot.api.event/index.html) to see the relevant java docs.
 
