@@ -63,7 +63,7 @@ This is done with the builder.
 
 ```java
 Tile bank = new Tile(3185, 3437, 0);
-Movement.builder(bank).setRunMin(45).setRunMax(75);
+Movement.builder(bank).setRunMin(45).setRunMax(75).move();
 ```
 This snippet here will walk to the tile provided however it will turn your run back on if it's between the 45 and 75 as the normal moveTo() method
 turns it on >0.
@@ -72,6 +72,6 @@ So great, now we can control when run gets turned back on. However if we want to
 
 ```java
 Tile bank = new Tile(3185, 3437, 0);
-Movement.builder(null).setToBank(true).setRunMin(45).setRunMax(75);
+Movement.builder(null).setToBank(true).setRunMin(45).setRunMax(75).move();
 ```
 Keeping the setRunMin and setRunMax at the same values and passing a null value as our locatable allows us to then add in the setToBank() method to the builder to search the web and find the nearest bank.
