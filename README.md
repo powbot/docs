@@ -27,3 +27,4 @@ In this section we'll talk through how to use the API in real scenarios offering
 * [Widget Interactions](/Fundamentals_In_Practice/WidgetInteractions)
 * [World Hopping](/Fundamentals_In_Practice/WorldHopping)
 * [Walking](/Fundamentals_In_Practice/WalkingToLocations)
+* [Drawing On Screen](/Fundamentals_In_Practice/DrawingRenderEvent)
