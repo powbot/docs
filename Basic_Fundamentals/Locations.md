@@ -27,7 +27,7 @@ Area area = new Area(topLeft, bottomRight);
 These areas are useful for checking if you or something is in them. For example you might set an area where something spawns, like black chins. You could then check the area to see if it contains any black chins.
 
 ```java
-Boolean areaContainsBlackChins = area.containsOrIntersects(blackChins);
+Boolean areaContainsBlackChins = area.contains(blackChins);
 ```
 
 Here I used containsOrIntersects as if it's on the border, it's not technically contained inside the area, it's intersecting, so this method checks both.
