@@ -13,7 +13,7 @@ Widgets can be returned one of two ways currently.
 Filtering the stream is the same as any other topic under the Stream API.
 
 ```java
-Component component = Components.stream().id(162).text("Click here to continue").viewable().first();
+Component component = Components.stream().widget(162).text("Click here to continue").viewable().first();
 ```
 
 You'll notice I'm accessing the widget stream, then filtering on the text "Click here to continue", then filtering again on viewable, meaning it's currently present on screen, then returning the first one which meets this criteria.
