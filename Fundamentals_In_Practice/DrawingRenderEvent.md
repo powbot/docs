@@ -23,8 +23,7 @@ From here you then need to set the scale so the points on screen that are being 
 ```java
 @Subscribe
 public void onRender(RenderEvent r){
-	Graphics g = r.getGraphics();
-	g.setScale(1.0f);
+		Rendering.setScale(1.0f);
 }
 ```
 
@@ -35,11 +34,9 @@ Now that I have them defined, I want to draw!
 ```java
 @Subscribe
 public void onRender(RenderEvent r){
-	Graphics g = r.getGraphics();
-	g.setScale(1.0f);
-	
-	g.setColor(Color.getCYAN());
-	g.drawString("Hello!", 50, 50);
+	Rendering.setScale(1.0f);
+	Rendering.setColor(Color.getCYAN());
+	Rendering.drawString("Hello!", 50, 50);
 }
 ```
 
