@@ -26,5 +26,5 @@
     * [Drawing On Screen](/Fundamentals_In_Practice/DrawingRenderEvent)
 
   - ### The Noob Section
-    * [Instalation](/The_Noob_Section/Installation)
+    * [Installation](/The_Noob_Section/Installation)
     * [Logging](/The_Noob_Section/Logging)
