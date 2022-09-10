@@ -28,3 +28,7 @@ In this section we'll talk through how to use the API in real scenarios offering
 * [World Hopping](/Fundamentals_In_Practice/WorldHopping)
 * [Walking](/Fundamentals_In_Practice/WalkingToLocations)
 * [Drawing On Screen](/Fundamentals_In_Practice/DrawingRenderEvent)
+
+ ### The Noob Section
+* [Instalation](/The_Noob_Section/Installation)
+* [Logging](/The_Noob_Section/Logging)
