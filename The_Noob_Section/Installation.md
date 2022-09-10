@@ -34,6 +34,7 @@ Now make sure you select the ARM option for the ABI setting then "Create" the in
 ## Step 3 - Installing
 
 First off; you need java 11. If you see something like the following error, you need to update your java.
+
 ![Image!](https://cdn.discordapp.com/attachments/341039694362050563/1016026416162283611/Screenshot_2022-09-04_124550.png)
 
 Open the installer that you downloaded in Step 1. This has 2 tabs, ADB and Bluestacks. Your instance may well show in the bluestacks tab.
@@ -49,6 +50,7 @@ To install via ADB you'll need to first connect ADB to your instance. This is ea
 Click on the settings icon at the bottom right of your Bluestacks instance and head down to the "Advanced tab".
 
 Here you should see the following information
+
 ![Image!](https://i.imgur.com/fU7i672.jpg)
 
 127.0.0.1 is your local host and the 5645 in the screenshot is your port. This usually starts at 5555 and goes up by 10 for each instance.
