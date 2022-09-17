@@ -26,7 +26,6 @@ Right click the file, and click 'Open with'
 
 Choose your favourite text editor, or notepad.
 
-
 ![image](https://user-images.githubusercontent.com/64224090/190851651-22560239-b087-4a30-b97f-801b88c2cb79.png)
 
 You should now see a wall of text. Don't worry, we only need to change a couple of small things.
@@ -34,11 +33,13 @@ You should now see a wall of text. Don't worry, we only need to change a couple 
 Go to the `Edit` tab, and click on `Find`
 Afterwards, search for `enable_root_access`
 This should show you a couple of same looking lines such as below:
+
 ![image](https://user-images.githubusercontent.com/64224090/190851761-c46a7239-27fd-4dd5-a388-626033879000.png)
 
 Change the `0` to a `1`
 
 ![image](https://user-images.githubusercontent.com/64224090/190851788-f6dce22e-408b-432f-bec8-359fcf78d73d.png)
+
 NOTE: You will need to do this for all instances one by one. Click the arrows to find the next instance of this setting.
 
 After you're done. You can save the file and close it. Congratulations, you've now enabled root on your instance(s).
@@ -48,6 +49,7 @@ After you're done. You can save the file and close it. Congratulations, you've n
 
 This step as is as simple as dragging and dropping the APK you have downloaded previously onto the instance you want to proxy.
 Once installation is complete, you should see this icon:
+
 ![image](https://user-images.githubusercontent.com/64224090/190851898-1d2d5056-c576-46cf-88fe-2874a551d3de.png)
 
 
@@ -75,6 +77,7 @@ Tap on `Individual proxy` and select make sure to select `OldSchool Runescape` a
 ![image](https://user-images.githubusercontent.com/64224090/190852192-f7dc8abd-c4ae-4cbc-b4ff-e9653a9d32ea.png)
 
 You can now go back, and connect to your proxy!
+
 ![image](https://user-images.githubusercontent.com/64224090/190852228-2976d5af-3e38-4a2a-a658-cd22059f0b67.png)
 
 Congratulations, if you've reached this step and ProxyDroid was able to connect, you can now open the game! 
