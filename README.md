@@ -35,3 +35,4 @@ Some guides for noobs I guess.
 
 * [Installation](/The_Noob_Section/Installation)
 * [Logging](/The_Noob_Section/Logging)
+* [Proxy Setup](/The_Noob_Section/ProxySetup)
