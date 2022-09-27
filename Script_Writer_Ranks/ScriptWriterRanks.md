@@ -5,7 +5,9 @@ Having the script writer rank means you’re part of the PowBot team and contrib
 Any script put forward for an application must be able to show a good amount of understanding for not only the API but some good standard practices in your writing. For example having  good modularity and/or the use of some OOP practices.
 
 There are 3 ranks available
+
 ###[Script Writer 1](/Script_Writer_Ranks/ScriptWriterRanks?id=script-writer-1) | [Script Writer 2](/Script_Writer_Ranks/ScriptWriterRanks?id=script-writer-2) | [Script Writer 3](/Script_Writer_Ranks/ScriptWriterRanks?id=script-writer-3)
+
 ## Script Writer 1
 
 ### Requirements
