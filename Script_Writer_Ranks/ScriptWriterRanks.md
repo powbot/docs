@@ -33,7 +33,7 @@ There are 3 ranks available
 - SW2 Rank applied on discord.
 - The availability to offer private script sales (You and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
 - The opportunity to apply for SW3.
- 
+- 
 ## Script Writer 3
 
 ### Requirements
@@ -41,7 +41,7 @@ There are 3 ranks available
 - A more complex script(s) than what we’d expect for SW2 and/or multiple complex scripts. Explore more of the API and utilise it efficiently and correctly.
 - You must keep and maintain at least 5+ scripts with two or more of these meeting the prior mentioned complexity requirement.
 - Unless a valid reason is present, upload to a public GitHub repo and post the link in your application. This will be reviewed, and any feedback provided by anyone with equal or greater rank.
- 
+
 ### Benefits
 - 6 free VIP instances of the client allowing you to develop without the worry of paying for your subscription. Since you’re giving more back to the community, as do we to you.
 - SW3 Rank applied on discord.
