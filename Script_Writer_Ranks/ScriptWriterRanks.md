@@ -33,7 +33,7 @@ There are 3 ranks available
 - SW2 Rank applied on discord.
 - The availability to offer private script sales (You and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
 - The opportunity to apply for SW3.
-- 
+
 ## Script Writer 3
 
 ### Requirements
