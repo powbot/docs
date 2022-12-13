@@ -27,7 +27,7 @@ Using the right commands, you can strip that out and get the pertinent informati
 Since you've already cd (changed directory) to the platform tools folder AND connected to your instance, you can just paste the following command into the same CMD window.
 
 ```
-adb.exe logcat PowBot:* *:I -t 1000 > dump.txt && notepad dump.txt
+adb.exe logcat PowBot:* *:I > dump.txt && notepad dump.txt
 ```
 
 This will pop open notepad for you to save the file and send to the script writer or client dev to investigate the issue.
