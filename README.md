@@ -24,7 +24,7 @@ In this section we'll talk through how to use the API in real scenarios offering
 * [Npc Interactions](/Fundamentals_In_Practice/NpcInteractions)
 * [GroundItem Interactions](/Fundamentals_In_Practice/GroundItemInteractions)
 * [Using Waits](/Fundamentals_In_Practice/UsingWaits)
-* [Widget Interactions](/Fundamentals_In_Practice/WidgetInteractions)
+* [Widget Interactions](/Fundamentals_In_Practice/WidgetInteracting)
 * [World Hopping](/Fundamentals_In_Practice/WorldHopping)
 * [Walking](/Fundamentals_In_Practice/WalkingToLocations)
 * [Drawing On Screen](/Fundamentals_In_Practice/DrawingRenderEvent)
