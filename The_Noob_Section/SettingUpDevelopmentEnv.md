@@ -24,11 +24,11 @@ To auto import all needed libraries, overwrite everything in the `gradle.build.k
 
 ```gradle
 plugins {
-    id 'java'
-    id "org.jetbrains.kotlin.jvm" version "1.7.10"
+    id 'java' // Alternative id("java")
+    id "org.jetbrains.kotlin.jvm" version "1.7.10" // Alternative id("org.jetbrains.kotlin.jvm") version "1.7.10"
 }
 
-group 'org.proto'
+group 'org.proto' // If failing, alternatively use ""
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -39,6 +39,7 @@ repositories {
     }
 }
 
+// If failing, alternatively use ""
 dependencies {
     implementation('org.powbot:client-sdk:1.+') // + means gradle will pull the latest libs on refresh of project
     implementation('org.powbot:client-sdk-loader:1.+') 
