@@ -25,11 +25,11 @@ Open your bluestacks multi-instance manager.
 
 Press the "Instance" button along with "Fresh instance"
 
-Select Pi 64-bit from the Android Version drop down.
+Select Android 11 from the Android Version drop down.
 
 Now make sure you select the ARM option for the ABI setting then "Create" the instance.
 
-![Image!](https://cdn.discordapp.com/attachments/763479057186553876/1014114315420307516/unknown.png)
+![Image!](https://i.imgur.com/kr0B0yj.png)
 
 ## Step 3 - Installing
 
