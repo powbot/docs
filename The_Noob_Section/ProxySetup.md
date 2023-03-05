@@ -25,7 +25,9 @@ Once installation is complete, you should see this icon:
 ## Step 3 - Adding a proxy
 
 Open up Proxifier, and add a new proxy by tapping the `+` button:
+
 ![image](https://user-images.githubusercontent.com/64224090/222971898-7d1ca56d-ef82-4a7b-b467-5a4c7c7192f6.png)
+
 ![image](https://user-images.githubusercontent.com/64224090/222971941-682d8c40-bb6b-4416-b1aa-9ecad4d68c9b.png)
 
 
@@ -34,10 +36,15 @@ Fill in the info as required and tap on save in the top right of the screen.
 ## Step 4 - Final configuration
 
 On the main screen, swipe the `default` option under the `rules` tag  to get access to the edit button and click on it.
+
 ![image](https://user-images.githubusercontent.com/64224090/222972200-54b26760-16ec-4693-8e4d-80e1d334bab8.png)
+
 Under action, choose `proxy`
+
 ![image](https://user-images.githubusercontent.com/64224090/222972258-01d2b054-b0a2-46b9-b968-5907abaf4b86.png)
+
 Underneath, choose the proxy you have created in the previous step and tap on the save button.
+
 ![image](https://user-images.githubusercontent.com/64224090/222972304-ee8135d2-8ee7-4f3b-bce5-6d7e1e214131.png)
 
 Now back on the main screen, you should be able to click the `connect` button. Accept any prompts that come up. After this, restart your instance and your proxy should now work when you connect!
