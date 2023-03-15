@@ -102,7 +102,7 @@ if (Game.tab(INVENTORY)) {
 	Item lobster = Inventory.stream().name(itemName).first();
 	GameObject range = Objects.stream().name(objectName).first();
 	if (Inventory.selectedItem().id() == -1) {
-		knife.interact("Use");
+		lobster.interact("Use");
 	} else if (Inventory.selectedItem().id() == knife.id()) {
 		range.interact("Use");
 	}
