@@ -10,7 +10,7 @@
 
 Create a new project in Intellij IDEA. Make sure to select the options outlined below. 
 
-![image](https://user-images.githubusercontent.com/64224090/219946807-9beed9d4-1944-47b6-b162-d5c59b9921eb.png)
+![image](https://user-images.githubusercontent.com/64224090/222971733-884d8f60-0871-415e-aa9e-fcefa1b8f836.png)
 
 After clicking on 'Create', wait until all background tasks are finished in the bottom right corner.
 
