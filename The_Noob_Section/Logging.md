@@ -7,11 +7,13 @@ We as developers and script writers are pretty much flying blind when users repo
 Firstly; if you're trying to get the logs, I'm making the assumption you already have bluestacks open / your phone connected and running the app.
 
 Select the instance you want the logs for; in the screenshot below, I've selected the bottom instance.
+
 ![Image!](https://i.imgur.com/AjMYNKq.jpg)
 
 ## The easy way; Step 2
 
 Select the logs button
+
 ![Image!](https://i.imgur.com/s8zl52T.jpg)
 ![Image!](https://i.imgur.com/pjXwiZM.jpg)
 

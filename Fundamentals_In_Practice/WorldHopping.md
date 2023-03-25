@@ -4,41 +4,18 @@ World hopping is something not many people include into scripts, but for others 
 
 This page's aim to guide you through a real example of how to use the API to include world hopping into your scripts.
 
-For me personally, I like to store the worlds I want to hop to in an array. This means I get to choose the worlds which aren't pvp for example. For me, I feel safer having these pre-defined.
+Worlds can be streamed like almost every other aspect of this API. They follow the same structure as to make them familar.
+Like other streams, you can action directly from the stream and/or cache a reference to your stream result and action on that.
 
+Some examples below.
 ```java
-public static final int[] f2p = {301, 326, 335, 371, 379, 380}; // I've shortened this list for example purposes, this is an array of f2p worlds
-```
-
-For those who don't know, java arrays are base 0, meaning item 1 has an index of 0, item 2 has an index of 1 and so on. Below is just a snippet of how to return an item from an array at a specified index.
-
-```java
-system.out.println("First item = " + f2p[0]); // the [0] signifies that I want the item with the index of 0
-system.out.println("Second item = " + f2p[1]); // the [1] signifies that I want the item with the index of 1, in this case the second item
-```
-
-If you wanted to hop in a random order or a random world you had listed you'd need to generate a random index to pull a world from.
-The easiest way to generate a random number is to use the api like so:
- 
-```java
-int randomIndex = Random.nextInt(0,7);
-int randomWorld = f2p[randomIndex];
-```
-
-Random.nextInt is inclusive exclusive, this means that it will generate a number including 0, but excluding 7 so 0 through to 6 as I have 6 worlds in my array
-
-So now, you should be able to select which world you wish to hop to. Mine is defined below:
-
-```java
-int randomWorld = f2p[Random.nextInt(0, f2p.length - 1)]; 
-```
-
-Rather than generate a random number first as I did above, I've done it in one line, I've also used f2p.length - 1 meaning if I ever add more worlds, I don't need to increase the max random index to generate. We also - 1 because it's base 0 meaning that the first item is index 0 rather than 1 and the last item's index is the length of the array - 1;
-
-Now I create a world object and pass my randomWorld variable to it.
-
-```java
-World world = new World(ctx, randomWorld, 1, World.Type.FREE, World.Server.RUNE_SCAPE, World.Specialty.NONE);
+World world = Worlds.stream().id(302).first();
+...
+...
+World world = Worlds.stream().filtered(w->!w.getSpecialty().equals(World.Specialty.HIGH_RISK)).first();
+...
+...
+World world = Worlds.stream().filtered(w->w.getPopulation()<1000).first();
 ```
 
 Now all that's left is to actually hop to it!
