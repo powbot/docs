@@ -17,7 +17,7 @@ Now I've have the name declared, lets filter them and attack the pesky goblins.
 
 ```java
 public String npcName = "Goblin";
-Npc goblin = Objects.stream().name(npcName).nearest().first();
+Npc goblin = Npcs.stream().name(npcName).nearest().first();
 if (goblin.inViewport()) {
 	goblin.interact("Attack", npcName);
 	Condition.wait(() -> !Players.local().interacting().healthBarVisible(), 150, 10);
