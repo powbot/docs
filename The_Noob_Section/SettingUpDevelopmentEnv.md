@@ -44,6 +44,7 @@ dependencies {
     implementation('org.powbot:client-sdk:1.+') // + means gradle will pull the latest libs on refresh of project
     implementation('org.powbot:client-sdk-loader:1.+') 
     implementation('com.google.guava:guava:31.1-jre') // needed for @Subscribe annotations / event bus  
+    implementation('com.fasterxml.jackson.core:jackson-core:2.13.0')
 }
 ```
 
