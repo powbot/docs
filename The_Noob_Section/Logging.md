@@ -35,7 +35,8 @@ Open up your command prompt (CMD) and paste the following commands one at a time
 
 ```
 cd "%userprofile%\.powbot\android\platform-tools\"
-adb connect localhost:XXXX logcat
+adb connect localhost:XXXX 
+adb -s localhost:XXXX logcat
 ```
 
 ## Step 2 - Get the RIGHT logs
