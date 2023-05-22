@@ -2,18 +2,18 @@
 
 ## Check if the equipment tab is open
 
-```kotlin
-val equipmentOpened = Equipment.opened()
-println("Equipment open? $equipmentOpen")
+```java
+boolean equipmentOpened = Equipment.opened();
+System.out.println("Equipment open? " + equipmentOpened);
 ```
 
 ## Open the equipment tab
 The `open()` function attempts to open the equipment tab. If successful it will return `true` else `false`
 
-```kotlin
+```java
 if (!Equipment.opened()) {
     if (Equipment.open()) {
-        Condition.wait({Equipment.opened()}, 300, 10)
+        Condition.wait(() -> Equipment.opened(), 300, 10)
     }
 }
 ```
@@ -22,9 +22,9 @@ if (!Equipment.opened()) {
 The `itemAt(Slot)` function returns an instance of Item. If there is no item a the slot it will return a Nil instance of the Item object. 
 
 ```kotlin
-val item = Equipment.itemAt(Equipment.Slot.HEAD)
-if (item !=  Item.Nil) {
-    println("Item found was ${item.name()}")
+Item item = Equipment.itemAt(Equipment.Slot.HEAD);
+if (item != Item.Nil) {
+    System.out.println("Item found was " + item.name());
 }
 ```
 

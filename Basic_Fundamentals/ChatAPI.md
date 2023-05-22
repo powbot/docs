@@ -16,38 +16,38 @@ If you want to continue a conversation there are two ways of doing this dependin
 
 If you want to just continue the conversation use the `clickContinue` function as shown below
 
-```kotlin
+```java
 if (Chat.canContinue()) {
     if (Chat.continueChat()) {
-        Condiiton.wait({!Chat.canContinue()}, 300, 10)
+        Condiiton.wait(() -> !Chat.canContinue(), 300, 10)
     }
 }
 ```
 
 if you want to continue the conversation with a specific response you can do so as shown below
 
-```kotlin
+```java
 if (Chat.canContinue()) {
     if(Chat.continueChat("Yes I will do that.")) {
-        Condition.wait({!Chat.canContinue()}, 300, 10)
+        Condition.wait(() -> !Chat.canContinue(), 300, 10)
     }
 }
 
 
 ## Get the content of the current chat message
-```kotlin
+```java
 if (Chat.chatting()) {
-    val message = Chat.getChatMessage()
+    String message = Chat.getChatMessage()
 }
 ```
 
 ## Automating a conversation
 The Powbot API has a handy method for automating the entire conversation with an NPC. You pass the responses you want to give to the NPC as a parameter and the `Chat.completeChat` method will handle all the input and necessary delays for you.
 
-```kotlin
+```java
 if (Chat.chatting()) {
     if (Chat.completeChat(*arrayOf("Yes", "I can help you", "Yes I'm fiunished talking"))) {
-        Condition.wait({!Chat.chatting()}, 500, 10)
+        Condition.wait(() -> !Chat.chatting(), 500, 10)
     }
 }
 ```

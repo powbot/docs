@@ -3,27 +3,29 @@ The store API provides functions that allow you to handle interactions with the 
 
 ## Determine whether the store is open
 
-```kotlin
+```java
 if (!Store.opened()) {
-    println("The store is not opened")
+    System.out.println("The store is not opened");
 }
 ```
 
 ## Opening the store
 The `open(npcName)` function opens the store. The parameter to the function is the NPCs name that you need to interact with to open the store.
-```kotlin
+
+```java
 if (!Store.opened()) {
     if (Store.open("Store owner")) {
-        Condition.wait({Store.opened()}, 300, 10)
+        Condition.wait(() -> Store.opened(), 300, 10);
     }
 }
+```
 
 ## Closing the store
 The `close()` function closes the store. 
-```kotlin
+```java
 if (Store.opened()) {
     if (Store.close()) {
-        Condition.wait({!Store.opened()}, 300, 10)
+        Condition.wait(() -> !Store.opened(), 300, 10)
     }
 }
 
@@ -31,28 +33,30 @@ if (Store.opened()) {
 ## Get a list of items in the store
 The `items()` function returns a list of components for the items in the store.
 
-```kotlin
+```java
 if (Store.opened()) {
-    Store.items().forEach { item -> println(item.name()) }
+    for (Item item : Store.items()) {
+        System.out.println(item.name());
+    }
 }
 ```
 
 ## Buying from the store.
 The `buy(itemId, buyAmount)` function takes the itemId and the amount you wish to buy from the store as parameters.
 
-```kotlin
+```java
 if (Store.opened()) {
-    val previousLobsterCount = Inventory.stream().id(Constants.LobsterId).count()
+    int previousLobsterCount = Inventory.stream().id(Constants.LobsterId).count();
     if (Store.buy(Constants.LobsterId, 2)) {
-        Condition.wait({Inventory.stream().id(Constants.LobsterId).count() > previousLobsterCount}, 300, 10)
+        Condition.wait(() -> Inventory.stream().id(Constants.LobsterId).count() > previousLobsterCount, 300, 10)
     }
 }
 ```
 
 ## Get the store name
-```kotlin
+```java
 if (Store.opened()) {
-    val storeName = Store.shopName()
-    println("Store name is $storeName")
+    String storeName = Store.shopName();
+    System.out.println("Store name is " + storeName);
 }
 ```

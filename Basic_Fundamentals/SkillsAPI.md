@@ -27,15 +27,15 @@ val prayerLevel = Skills.realLevel(Skill.prayer)
 The `timeSinceExpGained()` function returns the time in ms since experience was gained for a specific skill.
 
 Example:
-```kotlin
-val timeSinceLastExp = Skills.timeSinceExpGained(Skill.Magic)
-println("Time since last experience in Magic: $timeSinceLastExp ms")
+```java
+long timeSinceLastExp = Skills.timeSinceExpGained(Skill.MAGIC);
+System.out.println("Time since last experience in Magic: " + timeSinceLastExp + " ms");
 ```
 
 ## Obtaining the current experience for a skill
 The `experience(Skill)` function will return the experience points for a given skill.
-```kotlin
-Skills.experience(Skill.Magic
+```java
+long currentExp = Skills.experience(Skill.MAGIC);
 ```
 
 
@@ -43,6 +43,6 @@ Skills.experience(Skill.Magic
 Returns the experience required to reach the next level for the skill passed as the parameter.
 
 ```kotlin
-val expForNextLevel = Skills.experienceAtNextLevel(Skill.Magic)
-println("Experience required for next level in Magic: $expForNextLevel XP")
+long expForNextLevel = Skills.experienceAtNextLevel(Skill.MAGIC);
+System.out.println("Experience required for next level in Magic: " + expForNextLevel + " XP");
 ```

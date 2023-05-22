@@ -5,8 +5,8 @@ The majority of the PowBot API is considered NullSafe. This means that when stre
 ## Using the API
 
 Example usage:
-```kotlin
-val goblin = Npcs.stream().name("Goblin").within(10).nearest().first()
+```java
+Npc goblin = Npcs.stream().name("Goblin").within(10).nearest().first()
 ```
 
 Here we're streaming all `Npcs` and filtering them within 10 tiles where the Npcs name is `Goblin` choosing the nearest and then getting the first result. In other APIs if there were no goblins found within those conditions the variable `goblin` would be `null` but in the Powbot API this is not the case.
@@ -17,11 +17,11 @@ When you callk first on a stream if no matches are found, the API will return an
 
 Here is how you can check against `Nil` values
 
-```kotlin
-val goblin = Npcs.stream().name("Goblin").within(10).nearest().first()
+```java
+Npc goblin = Npcs.stream().name("Goblin").within(10).nearest().first()
 
 if (goblin == Npc.Nil) {
-    println("We couldn't find a goblin")
+    System.out.println("We couldn't find a goblin")
     return
 }
 ```
