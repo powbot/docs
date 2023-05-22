@@ -17,7 +17,7 @@ These are the basics on how to use the API. There is much more in the API than w
 * [Objects](/Basic_Fundamentals/Objects)
 * [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
 * [Prayer API](/Basic_Fundamentals/PrayerAPI)
-* [Skill API](/Basic_Fundamentals/SkillAPI)
+* [Skill API](/Basic_Fundamentals/SkillsAPI)
 * [Store API](/Basic_Fundamentals/StoreAPI)
 * [Stream API](/Basic_Fundamentals/StreamAPI)
 * [Waits](/Basic_Fundamentals/Waits)
