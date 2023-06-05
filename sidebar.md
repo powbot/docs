@@ -2,6 +2,7 @@
   - ### Basic Fundamentals
     * [Bank API](/Basic_Fundamentals/BankAPI)
     * [Chat API](/Basic_Fundamentals/ChatAPI)
+    * [Combat API](/Basic_Fundamentals/Combat)
     * [Equipment API](/Basic_Fundamentals/EquipmentAPI)
     * [Events](/Basic_Fundamentals/Events)
     * [Grand Exchange API](/Basic_Fundamentals/GrandExchangeAPI)
