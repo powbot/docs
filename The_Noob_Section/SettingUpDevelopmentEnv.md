@@ -25,7 +25,7 @@ To auto import all needed libraries, overwrite everything in the `gradle.build.k
 ```gradle
 plugins {
     id 'java' // Alternative id("java")
-    id "org.jetbrains.kotlin.jvm" version "1.7.10" // Alternative id("org.jetbrains.kotlin.jvm") version "1.7.10"
+    id "org.jetbrains.kotlin.jvm" version "1.5.21" // Alternative id("org.jetbrains.kotlin.jvm") version "1.5.21"
 }
 
 group 'org.proto' // If failing, alternatively use ""
