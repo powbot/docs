@@ -15,9 +15,11 @@ I mean this is pretty simple stuff. Follow the link below and install Bluestacks
 
 https://www.bluestacks.com/bluestacks-5.html
 
-## Step 2.1 - Create a new instance
+If you prefer LDPlayer9, download it here
 
-So bluestacks is an emulator. Each isntance is a new emulation of android.
+https://en.ldplayer.net/versions
+
+## Step 2.1 A - Create a new instance (Bluestacks)
 
 Open your bluestacks multi-instance manager.
 
@@ -31,13 +33,38 @@ Now make sure you select the ARM option for the ABI setting then "Create" the in
 
 ![Image!](https://i.imgur.com/kr0B0yj.png)
 
+## Step 2.1 B - Create a new instance (LDPlayer)
+
+Open your LDMultiPlayer.
+
+![Image!](https://i.imgur.com/KcHTyKF.png)
+
+Press the "Add instance" button along with "New instance"
+
+Now a new instance should be shown in the list. Before you start this instance, you'll need to change some settings!
+
+Press on the three dots on the right side of your new instance and select "Setting". The following screen will show.
+
+![Image!](https://i.imgur.com/fCSkrsD.png)
+
+![Image!](https://i.imgur.com/TWjGNiz.png)
+
+Change the CPU & RAM settings to 2 cores and 2048M.
+
+Next, go to "Other settings".
+
+![Image!](https://i.imgur.com/tBbqlIb.png)
+
+Set Root permission to Enable and ADB debugging to Open local connection.
+
+
 ## Step 3 - Installing
 
 First off; you need java 11. If you see something like the following error, you need to update your java.
 
 ![Image!](https://cdn.discordapp.com/attachments/341039694362050563/1016026416162283611/Screenshot_2022-09-04_124550.png)
 
-Open the installer that you downloaded in Step 1. This has 2 tabs, ADB and Bluestacks. Your instance may well show in the bluestacks tab.
+Open the installer that you downloaded in Step 1. This has 3 tabs, ADB, Bluestacks and LDPlayer. Your instance may well show in the respective tab.
 
 If it does, great. Click on the instance you wish to install to and then hit the install button.
 
@@ -47,7 +74,7 @@ However, the most reliable way to install is via ADB.
 
 To install via ADB you'll need to first connect ADB to your instance. This is easy; follow these steps.
 
-Click on the settings icon at the bottom right of your Bluestacks instance and head down to the "Advanced tab".
+Click on the settings icon at the bottom right of your Bluestacks instance and head down to the "Advanced tab". If you followed the LDPlayer installation guide, ADB will already be enabled on your device and should show up in the installer in the ADB tab.
 
 Here you should see the following information
 
