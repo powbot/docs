@@ -9,6 +9,7 @@ mineOre();
 Condition.sleep(1500);
 dropOre();
 Condition.sleep(500);
+
 ```
 
 So I've seen this more times than I care to count. But what's actually wrong with it?
