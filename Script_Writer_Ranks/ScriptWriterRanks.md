@@ -23,7 +23,8 @@ There are 3 ranks available
 ## Script Writer 2
 
 ### Requirements
-- All of the prior SW1 requirements
+- All the prior SW1 requirements
+- Active in the community; while it's not expected you're messaging every minute of every day, having some sort of presence in the community helps build trust from the users to the products they're ultimately going to use.
 - A more complex script(s) than what we’d expect for SW1. Explore more of the API and utilise it efficiently and correctly.
 - You must keep and maintain at least 3+ scripts with one of these meeting the prior mentioned complexity requirement.
 - Unless a valid reason is present, upload to a public GitHub repo and post the link in your application. This will be reviewed, and any feedback provided by anyone with equal or greater rank.
@@ -37,7 +38,7 @@ There are 3 ranks available
 ## Script Writer 3
 
 ### Requirements
-- All of the prior SW1 & 2 requirements
+- All the prior SW1 & 2 requirements
 - A more complex script(s) than what we’d expect for SW2 and/or multiple complex scripts. Explore more of the API and utilise it efficiently and correctly.
 - You must keep and maintain at least 5+ scripts with two or more of these meeting the prior mentioned complexity requirement.
 - Unless a valid reason is present, upload to a public GitHub repo and post the link in your application. This will be reviewed, and any feedback provided by anyone with equal or greater rank.
@@ -47,3 +48,23 @@ There are 3 ranks available
 - SW3 Rank applied on discord.
 - The availability to offer private script sales (You and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
 - The satisfaction of knowing there’s no more ranks to achieve as an SW.
+- 
+## Premium Scripts
+
+### Requirements
+- SW2 or SW3 ranks are able to apply to have a script upgraded to premium.
+- Expectation to maintain said script to a higher and/or more professional standard.
+- Providing service to a 'paid for' standard. We're not expecting 24/7 on-hand support, however as an example.
+  - User reports issue
+  - Waits 4 days
+  - SW replies - "Client issue"
+  - Does nothing
+- As a customer, that's pretty poor, they've gone out of their way, to raise the issue, waited and got absolutely 0 results.
+
+### Benefits
+- Payments are managed by Pow, a hands-off approach for you.
+    - 70/30 (SW/Pow)
+      - Just a reminder, if you're not a fan, you can manage your own payments privately for 100%.
+- Multiple withdraw options
+  - So the tokens a user spends on a premium script, get added to your balance.
+  - You can either use them, sell them for gp, crypto, feet pics etc or cash out with an invoice with @Okazaki.
