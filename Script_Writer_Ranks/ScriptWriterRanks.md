@@ -49,7 +49,7 @@ There are 3 ranks available
 - The availability to offer private script sales (You and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
 - The satisfaction of knowing there’s no more ranks to achieve as an SW.
 - 
-## Premium Scripts
+### Premium Scripts
 To apply, open a ticket in the [premium-script-submission](https://discord.com/channels/341014842745815054/1110596246554542143) channel.
 Be prepared however to provide information such as the following:
 ```
