@@ -50,6 +50,17 @@ There are 3 ranks available
 - The satisfaction of knowing there’s no more ranks to achieve as an SW.
 - 
 ## Premium Scripts
+To apply, open a ticket in the [premium-script-submission](https://discord.com/channels/341014842745815054/1110596246554542143) channel.
+Be prepared however to provide information such as the following:
+```
+Script Title:
+Proposed USD price per hour:
+A video of your script in action:
+Links to competitor scripts on other botting sites:
+Link to the script on your Powbot git repo:
+Any additional details:
+```
+Along with discussions about any further features, tweaks, possible lite versions, price point etc.
 
 ### Requirements
 - SW2 or SW3 ranks are able to apply to have a script upgraded to premium.
