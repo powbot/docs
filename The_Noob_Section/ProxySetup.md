@@ -17,6 +17,8 @@ As with everything in the world, there are always requirements before you start 
 
 This step as is as simple as dragging and dropping the APK you have downloaded previously onto the instance you want to proxy. If this is not an option, or doesn't work, there is an `APK` button on the right bar of your bluestacks/ld player instance.
 Once installation is complete, you should see this icon:
+
+
 ![image](https://github.com/Protoprize/docs/assets/64224090/050bd5ec-4975-41e6-b79f-60cf1129c550)
 
 
