@@ -19,6 +19,7 @@ This step as is as simple as dragging and dropping the APK you have downloaded p
 Once installation is complete, you should see this icon:
 
 
+
 ![image](https://github.com/Protoprize/docs/assets/64224090/050bd5ec-4975-41e6-b79f-60cf1129c550)
 
 
