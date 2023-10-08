@@ -1,57 +1,43 @@
 
-
 # Proxy setup
 
 ## Step 0 - Pre-requisites
 
 As with everything in the world, there are always requirements before you start working on something. The main ones for achieving proxy support on PowBot are as follows:
 
-* A correctly setup bluestacks instance - [Click here](https://docs.powbot.org/#/The_Noob_Section/Installation)
-* Working and stable **SOCKS5** proxies. 
+* Working and stable **SOCKS5** proxies.
+
 ** NOTE: We do not provide or recommend any specific proxy providers. Please make sure to do your research before buying. We do not recommend using any 'Free' proxies. You will face issues if your proxy is not stable.
 
-## Step 1 - Download the files
+## Step 1 - Download SocksTun
 
-* Proxifier APK - You can find this by googling `Proxifier APK`
+* SocksTun APK - https://github.com/heiher/sockstun/releases/tag/1.6
 
-## Step 2 - Install Proxifier
+## Step 2 - Install SocksTun
 
-This step as is as simple as dragging and dropping the APK you have downloaded previously onto the instance you want to proxy.
+This step as is as simple as dragging and dropping the APK you have downloaded previously onto the instance you want to proxy. If this is not an option, or doesn't work, there is an `APK` button on the right bar of your bluestacks/ld player instance.
 Once installation is complete, you should see this icon:
 
-![image](https://user-images.githubusercontent.com/64224090/222971813-09311e4d-9b7c-4f17-bca9-65f2da0d1752.png)
+
+
+![image](https://github.com/Protoprize/docs/assets/64224090/050bd5ec-4975-41e6-b79f-60cf1129c550)
+
 
 
 ## Step 3 - Adding a proxy
 
-Open up Proxifier, and add a new proxy by tapping the `+` button:
+Open up SocksTun, and fill in the required fields with the details of your proxy.
+**Make sure** to only leave `IPv4` checked. You should end up with a setup close to this:
+![image](https://github.com/Protoprize/docs/assets/64224090/de1ca46c-0f3d-4f29-9de3-46a1031b087e)
 
-![image](https://user-images.githubusercontent.com/64224090/222971898-7d1ca56d-ef82-4a7b-b467-5a4c7c7192f6.png)
+## Step 4 - App configuration
+Tap on the `Apps` button. Make sure to select `Old School Runescape`. If you want to check and make sure your proxy is working, you can also choose your web browser.
 
-![image](https://user-images.githubusercontent.com/64224090/222971941-682d8c40-bb6b-4416-b1aa-9ecad4d68c9b.png)
+![image](https://github.com/Protoprize/docs/assets/64224090/0255f0fb-b2c7-487f-b10f-f34657609dc6)
 
+Go back, and click on `Save` and then `Enable`.
 
-Fill in the info as required and tap on save in the top right of the screen.
-
-## Step 4 - Final configuration
-
-On the main screen, swipe the `default` option under the `rules` tag  to get access to the edit button and click on it.
-
-![image](https://user-images.githubusercontent.com/64224090/222972200-54b26760-16ec-4693-8e4d-80e1d334bab8.png)
-
-Under action, choose `proxy`
-
-![image](https://user-images.githubusercontent.com/64224090/222972258-01d2b054-b0a2-46b9-b968-5907abaf4b86.png)
-
-Underneath, choose the proxy you have created in the previous step and tap on the save button.
-
-![image](https://user-images.githubusercontent.com/64224090/222972304-ee8135d2-8ee7-4f3b-bce5-6d7e1e214131.png)
-
-Now back on the main screen, you should be able to click the `connect` button. Accept any prompts that come up. After this, restart your instance and your proxy should now work when you connect!
-
-
-NOTE: Remember that you will need to open Proxifier every time you restart your bluestacks instance. 
-
+Your connection will now be proxied. These settings persist over restart, just make sure to wait for the `Connected` pop up before opening the game.
 
 
 ## Step HELP - I'm still having issues
