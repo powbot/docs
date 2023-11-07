@@ -15,26 +15,11 @@ Firstly, to be able to draw on screen we have to subscribe to the RenderEvent.
 
 So you create a public void and subscribe to the RenderEvent passed as the param.
 
-## Basics
-
-After this you need to define a graphics object to access the api to draw which is Graphics g = r.getGraphics();
-From here you then need to set the scale so the points on screen that are being drawn, align to the games visuals. 
-
-```java
-@Subscribe
-public void onRender(RenderEvent r){
-		Rendering.setScale(1.0f);
-}
-```
-
-Now that I have them defined, I want to draw!
-
 ## Drawing!
 
 ```java
 @Subscribe
 public void onRender(RenderEvent r){
-	Rendering.setScale(1.0f);
 	Rendering.setColor(Color.getCYAN());
 	Rendering.drawString("Hello!", 50, 50);
 }
@@ -64,12 +49,9 @@ Tile tile = Players.local().tile();
 ...
 @Subscribe
 public void onRender(RenderEvent r){
-	Graphics g = r.getGraphics();
-	g.setScale(1.0f);
-	
-	g.setColor(Color.getCYAN());
+	Rendering.setColor(Color.getCYAN());
 	tile.matrix().draw(g); // matrix has it's own draw method
-	g.drawPolygon(tile.matrix().bounds()); // alternatively, you can draw the polygon (this requires the scale to be set above)
+	Rendering.drawPolygon(tile.matrix().bounds()); // alternatively, you can draw the polygon (this requires the scale to be set above)
 }
 ```
 
@@ -81,18 +63,15 @@ GameObject objectNotShrunk = Objects.stream().name("Chest").nearest().first().do
 ...
 @Subscribe
 public void onRender(RenderEvent r){
-	Graphics g = r.getGraphics();
-	g.setScale(1.0f);
-	
-	g.setColor(Color.getCYAN());
+	Rendering.setColor(Color.getCYAN());
 	
 	//by default the models are shrunk to help with click accuracy
 	object.model().draw(object.localX(), object.localY(), g); // draws the model
-	g.drawPolygon(object.model().quickHull(object.localX(), object.localY())); // draws the hull of the model
+	Rendering.drawPolygon(object.model().quickHull(object.localX(), object.localY())); // draws the hull of the model
         
     // as per defined by the objectNotShrunk setting downscale to false, you can also then draw the same thing full size    
     object.model().draw(object.localX(), object.localY(), g);
-	g.drawPolygon(object.model().quickHull(object.localX(), object.localY()));
+	Rendering.drawPolygon(object.model().quickHull(object.localX(), object.localY()));
 }
 ```
 ```java
@@ -104,9 +83,6 @@ Area drawArea = new Area(new Tile(0,0,0), new Tile(9,9,0));
 ...
 	@Subscribe
 	public void onRender(RenderEvent r) {
-		Graphics g = r.getGraphics();
-		g.setScale(1.0f);
-
 		for(Tile tile:drawArea.get_tiles()){
 			tile.matrix().draw(g);
 		}

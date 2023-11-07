@@ -30,6 +30,6 @@ Condition.wait(() -> Magic.HIGH_ALCHEMY.casting(), 50, 100);
 You can check whether a spell is can be cast by using the `canCast()` function call.
 
 ```java
-boolean canCast = Magic.Spell.Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY.canCast();
+boolean canCast = Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY.canCast();
 ```
 There are some other methods available too for you to explore and use at your own pace.
