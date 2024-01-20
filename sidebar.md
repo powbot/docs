@@ -36,4 +36,5 @@
     * [Installation](/The_Noob_Section/Installation)
     * [Logging](/The_Noob_Section/Logging)
     * [Proxy Setup](/The_Noob_Section/ProxySetup)
+    * [Jagex account setup](/The_Noob_Section/TransferringToJagexAccount.md)
     * [Development Setup](/The_Noob_Section/SettingUpDevelopmentEnv)
