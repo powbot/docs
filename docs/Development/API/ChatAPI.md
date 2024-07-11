@@ -32,7 +32,7 @@ if (Chat.canContinue()) {
         Condition.wait(() -> !Chat.canContinue(), 300, 10)
     }
 }
-
+```
 
 ## Get the content of the current chat message
 ```java
