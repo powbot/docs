@@ -42,10 +42,10 @@ However, in this  example, we actually don't want all of those 0's at the end, w
 To do a bit shift to the right, the operator is ``>>``.
 
 ```java
-0b1011010000>>1 //this would be 0b101101000
-0b1011010000>>2 //this would be 0b10110100
-0b1011010000>>3 //this would be 0b1011010
-0b1011010000>>4 //this would be 0b101101
+0b1011010000 >> 1 // becomes 0b101101000
+0b1011010000 >> 2 // becomes 0b10110100
+0b1011010000 >> 3 // becomes 0b1011010
+0b1011010000 >> 4 // becomes 0b101101
 ```
 Hopefully you can see that depending on how many shifts to the right, we get a different output. However, our 4 shift leaves us then with ``0b101101``.
 
@@ -66,8 +66,8 @@ Let's put it all together in an example.
 
 ```java
 int originalValue = Varpbits.varpbit(exampleIndex);// the output of this is 0b1011010000
-int bitShiftedValue = Varpbits.varpbit(exampleIndex) >> 4;// the output of this is 0b101101
-int bitMaskedValue = bitShiftedValue & 0b000111; 
+int bitShiftedValue = originalValue >> 4; // results in 0b101101
+int bitMaskedValue = bitShiftedValue & 0b000111; // extracts the desired bits
 
 //Alternatively, you could write it out like this
 int value = Varpbits.varpbit(exampleIndex) >> 4 & 0b000111;
@@ -83,9 +83,10 @@ I started off by turning on the varpbit change event debug option and changed my
 !["ActivityAdvisorPng"](https://media.discordapp.net/attachments/902518108546289694/1261022139796951132/image.png?ex=669171e2&is=66902062&hm=906e6ed7e6e94fbde4870cff6979a12ae12bc3b6b715cdb0eea75a3cb3011be9&=&format=webp&quality=lossless&width=810&height=506)
 
 ```java
- public int ADVISOR_INDEX = 3190;
- public int ON_DECIMAL = 148;
- public int OFF_DECIMAL = 156;
+public int ADVISOR_INDEX = 3190;
+public int SHIFTED_VALUE = Varpbits.varpbit(ADVISOR_INDEX) >> 3; // Shift by 3 bits
+public int MASKED_VALUE = SHIFTED_VALUE & 0b00001; // Mask to get the relevant bit
+// OFF value: 1 (0b00001), ON value: 0 (0b00000)
 ```
 
 You'll notice how I've written the decimal values, this is what the varpbit event returns. So we'll want to convert this to binary. I use this converter tool linked but use whatever you prefer.
