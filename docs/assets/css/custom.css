@@ -1,0 +1,52 @@
+/* Ensure the quick start guides section is flexible and responsive */
+.quick-start-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.quick-start-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181a20;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-start-tile a {
+  margin-bottom: 0.5rem;
+}
+
+.quick-start-tile p {
+  margin: 0;
+}
+
+/* Ensure the tiles look good on smaller screens */
+@media (max-width: 768px) {
+  .quick-start-tile {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* General button styling */
+.md-button {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.md-button:hover {
+  background-color: #1976d2;
+}
