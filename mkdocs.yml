@@ -72,8 +72,9 @@ nav:
           - 'Widget Interactions': 'Development/Quirks/WidgetInteracting.md'
       - 'Script Writers':
           - 'Ranks': 'Development/Script_writers/ScriptWriterRanks.md'
-  - Help & Support: 'Help_And_Support/temp.md'
   - Scripts: 'Scripts.md'
+  - Help & Support: 'Help_And_Support/temp.md'
+
 extra:
   generator: false
   social:
