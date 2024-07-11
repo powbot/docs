@@ -1,5 +1,5 @@
 site_name: PowBot Docs
-site_url: https://docs.powbot.org/
+site_url: https://docs.protoscripts.xyz/
 extra_css:
   - assets/css/custom.css
 theme:
