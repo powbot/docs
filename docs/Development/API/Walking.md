@@ -104,7 +104,7 @@ So how do we use it? Firstly, we need to create an array of tiles that we create
         new Tile(3497, 9809, 0),
         new Tile(3498, 9807, 0),
         new Tile(3500, 9805, 0)
-        };
+ };
 ```
 
 Now we can make a TilePath object to traverse. Notice I also set a variable called targetLocation, this set by accessing the array of tiles and getting the last one.
@@ -129,7 +129,7 @@ I've also created a GameObject for the cave we want to go through next, you'll s
         new Tile(3497, 9809, 0),
         new Tile(3498, 9807, 0),
         new Tile(3500, 9805, 0)
-        };
+ };
 
         TilePath tilepath = new TilePath(path);
         Tile targetLocation = path[path.length-1]; 
@@ -158,7 +158,7 @@ Then lastly, we just call traverse(). You can also do things like reverse().trav
         new Tile(3497, 9809, 0),
         new Tile(3498, 9807, 0),
         new Tile(3500, 9805, 0)
-        };
+ };
 
  TilePath tilepath = new TilePath(path);
  Tile targetLocation = path[path.length-1];
