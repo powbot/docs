@@ -54,6 +54,7 @@ nav:
           - 'Rendering': 'Development/Quirks/Rendering.md'
           - 'Skills': 'Development/API/SkillsAPI.md'
           - 'Store': 'Development/API/StoreAPI.md'
+          - 'Varpbits': 'Development/API/Varpbits.md'
           - 'Waits/Sleep': 'Development/API/Waits.md'
           - 'Walking': 'Development/Quirks/Walking.md'
           - 'Widgets': 'Development/API/Widgets.md'
