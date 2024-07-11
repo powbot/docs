@@ -1,4 +1,6 @@
-# Items
+---
+title: Inventory Items
+---
 
 An item is classified as anything in your inventory. These items are filterable to return the specific item(s) that you want/need.
 
