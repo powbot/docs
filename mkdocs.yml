@@ -10,7 +10,7 @@ theme:
     code: Roboto Mono
   palette:
       scheme: slate
-
+      primary: black
   features:
     - navigation.tabs
     - navigation.top
