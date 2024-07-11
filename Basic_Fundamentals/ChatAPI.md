@@ -14,17 +14,17 @@ if (Chat.chatting()) {
 ## Continuing a conversation
 If you want to continue a conversation there are two ways of doing this depending on the situation whether you need to press 'Click to continue' or send an option response.
 
-If you want to just continue the conversation use the `clickContinue` function as shown below
+If you want to just continue the conversation use the `Chat.continueChat()` function as shown below.
 
 ```java
 if (Chat.canContinue()) {
     if (Chat.continueChat()) {
-        Condiiton.wait(() -> !Chat.canContinue(), 300, 10)
+        Condititon.wait(() -> !Chat.canContinue(), 300, 10)
     }
 }
 ```
 
-if you want to continue the conversation with a specific response you can do so as shown below
+If you want to continue the conversation with a specific response you can do so as shown below.
 
 ```java
 if (Chat.canContinue()) {
@@ -32,7 +32,7 @@ if (Chat.canContinue()) {
         Condition.wait(() -> !Chat.canContinue(), 300, 10)
     }
 }
-
+```
 
 ## Get the content of the current chat message
 ```java
@@ -51,5 +51,3 @@ if (Chat.chatting()) {
     }
 }
 ```
-
-
