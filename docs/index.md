@@ -5,10 +5,10 @@ hide:
   - footer
 ---
 
-
 # Welcome to PowBot Docs
 
-Welcome to the official documentation for PowBot! Here, you'll find all the information you need to get started*, understand the fundamentals, and get help & support.
+Welcome to the official documentation for PowBot! Here, you'll find all the information you need to get started*,
+understand the fundamentals, and get help & support.
 
 <div><span style="font-size:0.65em;">* Note: You require a PowBot account with a VIP subscription to use the client. The <strong>only</strong> way to get an account is by winning one of the giveaways which we regularly host in our discord.</span>  
 </div>
@@ -38,7 +38,6 @@ New and looking at how to get PowBot set up? Or wanting to check out our develop
 
 </div>
 
-
 ## Join Our Community
 
 For real-time help and to connect with other users, join our Discord community:
@@ -57,6 +56,7 @@ For real-time help and to connect with other users, join our Discord community:
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute to this documentation, create a pull request with your changes to our [GitHub repository](https://github.com/powbot/docs).
+We welcome contributions! If you'd like to contribute to this documentation, create a pull request with your changes to
+our [GitHub repository](https://github.com/powbot/docs).
 
 ---

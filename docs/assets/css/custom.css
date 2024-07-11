@@ -1,52 +1,178 @@
-/* Ensure the quick start guides section is flexible and responsive */
 .quick-start-tiles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .quick-start-tile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #181a20;
-  padding: 1rem;
-  border-radius: 0.25rem;
-  text-align: center;
-  width: 100%;
-  max-width: 300px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181a20;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .quick-start-tile a {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .quick-start-tile p {
-  margin: 0;
+    margin: 0;
 }
 
-/* Ensure the tiles look good on smaller screens */
 @media (max-width: 768px) {
-  .quick-start-tile {
-    width: 100%;
-    max-width: 100%;
-  }
+    .quick-start-tile {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
-/* General button styling */
 .md-button {
-  display: inline-block;
-  padding: 0.75rem 1rem;
-  color: #ffffff;
-  background-color: #2196f3;
-  border-radius: 0.25rem;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    color: #ffffff;
+    background-color: #2196f3;
+    border-radius: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .md-button:hover {
-  background-color: #1976d2;
+    background-color: #1976d2;
+}
+
+#script-search-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+#script-search-container input,
+#script-search-container select {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    background-color: #333;
+    color: #e0e0e0;
+    min-width: 200px;
+}
+
+#script-search-container select {
+    max-width: 200px;
+}
+
+#script-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.script {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s;
+}
+
+.script:hover {
+    transform: scale(1.02);
+}
+
+.script-header {
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.script-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.script-header .script-version {
+    font-size: 0.75rem;
+    color: #aaaaaa;
+    margin-top: 0.25rem;
+}
+
+.script-header .script-author {
+    font-size: 0.75rem;
+    color: #b0b0b0;
+    margin-top: 0.25rem;
+}
+
+.script-description {
+    margin: 0.5rem 0;
+    color: #b0b0b0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.875rem;
+}
+
+.script-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #444;
+    padding-top: 0.5rem;
+}
+
+.script-details .script-category {
+    font-size: 0.75rem;
+    color: #b0b0b0;
+}
+
+.script-details .script-cost {
+    font-size: 0.75rem;
+    color: #d0d0d0;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #script-search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #script-search-container input,
+    #script-search-container select {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #script-list {
+        grid-template-columns: 1fr;
+    }
+
+    .script {
+        width: 100%;
+    }
 }
