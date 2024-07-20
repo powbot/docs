@@ -2,10 +2,10 @@
 
 > *Everything about PowBot is held here.*
 
-Site deployed [here][https://docs.powbot.org/]
+Site deployed [here](https://docs.powbot.org/)
 
 Reference sites:
-- [Material For MkDocs][https://squidfunk.github.io/mkdocs-material/reference/]
+- [Material For MkDocs](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ## Quick start guide
 
