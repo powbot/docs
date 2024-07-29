@@ -9,40 +9,15 @@ As with everything in the world, there are always requirements before you start 
 
 ** NOTE: We do not provide or recommend any specific proxy providers. Please make sure to do your research before buying. We do not recommend using any 'Free' proxies. You will face issues if your proxy is not stable.
 
-## Step 1 - Download SocksTun
+## Step 1 - Picking the app to use
 
-* SocksTun APK - https://github.com/heiher/sockstun/releases/tag/1.6
+There are multiple ways to proxify your traffic on Android. The two most common ways are using SocksTun and Rethink. Both are great options, and we will cover both in this guide.
 
-## Step 2 - Install SocksTun
+<a href="Proxy_Setup/Rethink.md">Rethink</a> supports IP whitelisting, which is a great feature if you only want traffic to that specific IP address to be routed without a proxy. This is recommended when using Pow-Cloud. It also features DNS and logging options.
 
-This step as is as simple as dragging and dropping the APK you have downloaded previously onto the instance you want to proxy. If this is not an option, or doesn't work, there is an `APK` button on the right bar of your bluestacks/ld player instance.
-Once installation is complete, you should see this icon:
+<a href="Proxy_Setup/SocksTun.md">SocksTun</a> is a more straightforward option but has way fewer features.
 
+## Step 2 - Setting up the app
 
+Please pick one of the two options above and follow the guide to set up your proxy.
 
-![image](https://github.com/Protoprize/docs/assets/64224090/050bd5ec-4975-41e6-b79f-60cf1129c550)
-
-
-
-## Step 3 - Adding a proxy
-
-Open up SocksTun, and fill in the required fields with the details of your proxy.
-**Make sure** to only leave `IPv4` checked. You should end up with a setup close to this:
-![image](https://github.com/Protoprize/docs/assets/64224090/de1ca46c-0f3d-4f29-9de3-46a1031b087e)
-
-## Step 4 - App configuration
-Tap on the `Apps` button. Make sure to select `Old School Runescape`. If you want to check and make sure your proxy is working, you can also choose your web browser.
-
-![image](https://github.com/Protoprize/docs/assets/64224090/0255f0fb-b2c7-487f-b10f-f34657609dc6)
-
-Go back, and click on `Save` and then `Enable`.
-
-Your connection will now be proxied. These settings persist over restart, just make sure to wait for the `Connected` pop up before opening the game.
-
-
-## Step HELP - I'm still having issues
-
-There could be a couple of reasons why you may be having issues. These are listed below:
-* Cannot connect to game - This is caused by your proxy not working correctly. Please confirm it is a working proxy and try again. Reconnecting sometimes does help. Replace your proxy if your provider allows you to.
-* Powbot bar does not appear - This is caused because you logged into powbot before setting up the proxy. Simply remove the game from your instance, and re-install using the latest installer (this can be found on our discord under #downloads). Make sure your proxy is on before logging into powbot/the game.
-* I am lost - Please join our discord and describe your issue in as much detail as you can. This will help us with helping you to troubleshoot your issue.
