@@ -1,7 +1,7 @@
-# Installation
+# Installation - Bluestacks 5
 
-All roads lead to Rome, and trust me, there's a lot of different roads so lets get started. For the most part, installation is really simple.
-However if you're having trouble; there's different routes to get to where you want to be. 
+## Pre-requisites
+- Java 11 or above
 
 ## Step 1 - Download the files
 
