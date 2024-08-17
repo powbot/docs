@@ -1,7 +1,7 @@
-# Installation - Bluestacks 5
+# Installation
 
-## Pre-requisites
-- Java 11 or above
+All roads lead to Rome, and trust me, there's a lot of different roads so lets get started. For the most part, installation is really simple.
+However if you're having trouble; there's different routes to get to where you want to be.
 
 ## Step 1 - Download the files
 
@@ -91,7 +91,7 @@ adb connect localhost:XXXX
 
 ## Step 4 - Install (Take 2)
 
-Now head back to your installer; open the ADB tab and hit refresh. 
+Now head back to your installer; open the ADB tab and hit refresh.
 
 You should now see your device connected. Select it and hit install.
 
