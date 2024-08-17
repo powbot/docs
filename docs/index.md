@@ -13,30 +13,35 @@ understand the fundamentals, and get help & support.
 <div><span style="font-size:0.65em;">* Note: You require a PowBot account with a VIP subscription to use the client. The <strong>only</strong> way to get an account is by winning one of the giveaways which we regularly host in our discord.</span>  
 </div>
 
-## Quick Start Guides
 
-New and looking at how to get PowBot set up? Or wanting to check out our development documentation?
+<div class="grid cards" markdown>
 
+-   :material-cellphone-arrow-down-variant:{ .lg .middle } __Base guides__
 
+    ---
 
-<div class="quick-start-tiles">
+    Find guides for installing PowBot on emulators/real devices, using proxies and more!
 
-  <div class="quick-start-tile">
-    <a href="Getting_Started/Basic_Fundamentals/BankAPI.md" class="md-button md-button--primary">Getting Started</a>
-    <p>Guides for installing PowBot, using proxies, and more.</p>
-  </div>
+    [:octicons-arrow-right-24: Getting started](Getting_Started/Installation.md)
 
-  <div class="quick-start-tile">
-    <a href="Development/SettingUpDevelopmentEnv.md" class="md-button md-button--primary">Development</a>
-    <p>API Documentation and tutorials.</p>
-  </div>
+-   :material-console:{ .lg .middle } __Create your own scripts__
 
-  <div class="quick-start-tile">
-    <a href="help_support.md" class="md-button md-button--primary">Help & Support</a>
-    <p>Help guides and troubleshooting steps.</p>
-  </div>
+    ---
+
+    We provide you with a sleek and simple API. Learn how to use it to create your own scripts!
+
+    [:octicons-arrow-right-24: Development](Development/SettingUpDevelopmentEnv.md)
+
+-   :material-help:{ .lg .middle } __Have questions?__
+
+    ---
+
+    Our FAQ page covers the most common questions you may have as well as troubleshooting steps.
+
+    [:octicons-arrow-right-24: Help & Support](Help_And_Support/temp.md)
 
 </div>
+
 
 ## Join Our Community
 
