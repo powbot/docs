@@ -1,7 +1,7 @@
 site_name: PowBot Docs
 site_url: https://docs.protoscripts.xyz/
 extra_css:
-  - assets/css/custom.css
+  - assets/styles.css
 theme:
   name: material
   logo: assets/images/pb_logo.png
@@ -31,7 +31,9 @@ nav:
   - Getting started:
       - 'Installation': 'Getting_Started/Installation.md'
       - 'Logging': 'Getting_Started/Logging.md'
-      - 'Proxy Setup': 'Getting_Started/ProxySetup.md'
+      - 'Proxy Setup':
+          - 'RethingDNS': 'Getting_Started/Proxy_Setup/Rethink.md'
+          - 'SocksTun': 'Getting_Started/Proxy_Setup/SocksTun.md'
       - 'Jagex account setup': 'Getting_Started/TransferringToJagexAccount.md'
 
   - Development:
@@ -103,7 +105,18 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - search
+
 copyright: RuneScape is a registered trademark of Jagex Ltd. | Use of PowBot and its services is not endorsed or recommended by Jagex Ltd.
