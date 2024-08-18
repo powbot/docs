@@ -1,13 +1,5 @@
 
-# Proxy setup
-
-## Step 0 - Pre-requisites
-
-As with everything in the world, there are always requirements before you start working on something. The main ones for achieving proxy support on PowBot are as follows:
-
-* Working and stable **SOCKS5** proxies.
-
-** NOTE: We do not provide or recommend any specific proxy providers. Please make sure to do your research before buying. We do not recommend using any 'Free' proxies. You will face issues if your proxy is not stable.
+# SocksTun setup
 
 ## Step 1 - Download SocksTun
 

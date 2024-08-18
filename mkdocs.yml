@@ -1,0 +1,122 @@
+site_name: PowBot Docs
+site_url: https://docs.protoscripts.xyz/
+extra_css:
+  - assets/styles.css
+theme:
+  name: material
+  logo: assets/images/pb_logo.png
+  favicon: assets/favicon.ico
+  font:
+    code: Roboto Mono
+  palette:
+      scheme: slate
+      primary: black
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.path
+    - navigation.instant
+    - navigation.footer
+    - navigation.instant.progress
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+nav:
+  - Home: index.md
+  - Getting started:
+      - 'Installation': 'Getting_Started/Installation.md'
+      - 'Logging': 'Getting_Started/Logging.md'
+      - 'Proxy Setup':
+          - 'RethingDNS': 'Getting_Started/Proxy_Setup/Rethink.md'
+          - 'SocksTun': 'Getting_Started/Proxy_Setup/SocksTun.md'
+      - 'Jagex account setup': 'Getting_Started/TransferringToJagexAccount.md'
+
+  - Development:
+      - 'Dev Setup': 'Development/SettingUpDevelopmentEnv.md'
+      - 'Using the API':
+          - 'Bank': 'Development/API/BankAPI.md'
+          - 'Chat': 'Development/API/ChatAPI.md'
+          - 'Combat': 'Development/API/Combat.md'
+          - 'Equipment': 'Development/API/EquipmentAPI.md'
+          - 'Events': 'Development/API/Events.md'
+          - 'Grand Exchange': 'Development/API/GrandExchangeAPI.md'
+          - 'Ground Items': 'Development/API/GroundItems.md'
+          - 'Items': 'Development/API/Items.md'
+          - 'Locations': 'Development/API/Locations.md'
+          - 'Magic': 'Development/API/MagicAPI.md'
+          - 'NPC': 'Development/API/Npcs.md'
+          - 'Objects': 'Development/API/Objects.md'
+          - 'PaintBuilder': 'Development/API/PaintBuilderAPI.md'
+          - 'Prayer': 'Development/API/PrayerAPI.md'
+          - 'Rendering': 'Development/Quirks/Rendering.md'
+          - 'Skills': 'Development/API/SkillsAPI.md'
+          - 'Store': 'Development/API/StoreAPI.md'
+          - 'Varpbits': 'Development/API/Varpbits.md'
+          - 'Waits/Sleep': 'Development/API/Waits.md'
+          - 'Walking': 'Development/API/Walking.md'
+          - 'Widgets': 'Development/API/Widgets.md'
+          - 'World': 'Development/Quirks/WorldHopping.md'
+
+      - 'Quirks':
+          - 'Interaction Types': 'Development/Quirks/InteractionTypes.md'
+          - 'GroundItem Interactions': 'Development/Quirks/GroundItemInteractions.md'
+          - 'Inventory Interactions': 'Development/Quirks/InventoryInteractions.md'
+          - 'Npc Interactions': 'Development/Quirks/NpcInteractions.md'
+          - 'Null Safety': 'Development/Quirks/NullSafety.md'
+          - 'Object Interactions': 'Development/Quirks/ObjectInteractions.md'
+          - 'Stream': 'Development/Quirks/StreamAPI.md'
+          - 'Using Waits': 'Development/Quirks/UsingWaits.md'
+          - 'Widget Interactions': 'Development/Quirks/WidgetInteracting.md'
+      - 'Script Writers':
+          - 'Ranks': 'Development/Script_writers/ScriptWriterRanks.md'
+  - Scripts: 'Scripts.md'
+  - Help & Support: 'Help_And_Support/temp.md'
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/powbot
+
+markdown_extensions:
+  - codehilite
+  - toc
+  - tables
+  - admonition
+  - footnotes
+  - abbr
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+
+copyright: RuneScape is a registered trademark of Jagex Ltd. | Use of PowBot and its services is not endorsed or recommended by Jagex Ltd.

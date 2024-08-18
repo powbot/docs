@@ -1,50 +1,34 @@
-# docs
+# PowBot Docs
 
-## Basic Fundamentals
+> *Everything about PowBot is held here.*
 
-These are the basics on how to use the API. There is much more in the API than what is covered here but we'll be adding to these as we go along.
+Site deployed [here](https://docs.powbot.org/)
 
-* [Bank API](/Basic_Fundamentals/BankAPI)
-* [Chat API](/Basic_Fundamentals/ChatAPI)
-* [Combat API](/Basic_Fundamentals/Combat)
-* [Equipment API](/Basic_Fundamentals/EquipmentAPI)
-* [Events](/Basic_Fundamentals/Events)
-* [Grand Exchange API](/Basic_Fundamentals/GrandExchangeAPI)
-* [Ground Items](/Basic_Fundamentals/GroundItems)
-* [Interaction Types](/Basic_Fundamentals/InteractionTypes)
-* [Items](/Basic_Fundamentals/Items)
-* [Locations](/Basic_Fundamentals/Locations)
-* [Magic API](/Basic_Fundamentals/MagicAPI)
-* [Objects](/Basic_Fundamentals/Objects)
-* [PaintBuilder](/Basic_Fundamentals/PaintBuilderAPI)
-* [Prayer API](/Basic_Fundamentals/PrayerAPI)
-* [Skill API](/Basic_Fundamentals/SkillsAPI)
-* [Store API](/Basic_Fundamentals/StoreAPI)
-* [Stream API](/Basic_Fundamentals/StreamAPI)
-* [Waits](/Basic_Fundamentals/Waits)
-* [Widgets](/Basic_Fundamentals/Widgets)
+Reference sites:
+- [Material For MkDocs](https://squidfunk.github.io/mkdocs-material/reference/)
 
-## Fundamentals In Practice
+## Quick start guide
 
-In this section we'll talk through how to use the API in real scenarios offering snippets so you can put it into practice, see how it works and learn from it.
+### Requirements
+- Python 3.3 or above installed
+- pip
 
-* [Drawing On Screen](/Fundamentals_In_Practice/DrawingRenderEvent)
-* [GroundItem Interactions](/Fundamentals_In_Practice/GroundItemInteractions)
-* [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions)
-* [Npc Interactions](/Fundamentals_In_Practice/NpcInteractions)
-* [Null Safety](/Fundamentals_In_Practice/NullSafety)
-* [Object Interactions](/Fundamentals_In_Practice/ObjectInteractions)
-* [Using Waits](/Fundamentals_In_Practice/UsingWaits)
-* [Walking](/Fundamentals_In_Practice/WalkingToLocations)
-* [Widget Interactions](/Fundamentals_In_Practice/WidgetInteracting)
-* [World Hopping](/Fundamentals_In_Practice/WorldHopping)
+### Project setup
+1. Create a fork of this repository and clone it.
+2. cd into the cloned repo, and run `virtualenv .`
+3.   
+   1. Windows:
+      1. Run powershell as admin and run this command `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;`
+         2. Back in the repo directory, you want to run `./.venv/bin/activate.ps1`
+   2. MacOS/Linux:
+      1. Open a terminal window, cd into the repo directory and run:
+         1. `chmod +x ./.venv/bin/activate`
+         2. `./.venv/bin/activate`
+4. Run `pip3 install mkdocs-material` to install the mkdocs=material library.
 
- ### The Noob Section
+### Running locally
+Run this command from the project dir: `mkdocs serve`
 
-Some guides for noobs I guess.
 
-* [Installation](/The_Noob_Section/Installation)
-* [Logging](/The_Noob_Section/Logging)
-* [Proxy Setup](/The_Noob_Section/ProxySetup)
-* [Jagex account setup](/The_Noob_Section/TransferringToJagexAccount.md)
-* [Development Setup](/The_Noob_Section/SettingUpDevelopmentEnv)
+## Notes
+- You don't need to run this project to be able to add to or modify existing markdown files.

@@ -1,0 +1,3 @@
+[submodule "docs/scripts"]
+	path = docs/scripts
+	url = https://github.com/Protoprize/powbot-script-list.git

@@ -1,7 +1,7 @@
 # Installation
 
 All roads lead to Rome, and trust me, there's a lot of different roads so lets get started. For the most part, installation is really simple.
-However if you're having trouble; there's different routes to get to where you want to be. 
+However if you're having trouble; there's different routes to get to where you want to be.
 
 ## Step 1 - Download the files
 
@@ -91,7 +91,7 @@ adb connect localhost:XXXX
 
 ## Step 4 - Install (Take 2)
 
-Now head back to your installer; open the ADB tab and hit refresh. 
+Now head back to your installer; open the ADB tab and hit refresh.
 
 You should now see your device connected. Select it and hit install.
 
@@ -100,7 +100,7 @@ You should now see your device connected. Select it and hit install.
 Okay, so something is likely stopping or blocking the installation. The easiest way to work out what is to run the installer
 via the CMD so we can catch the error log.
 
-Find your installer file and copy it's path. For me, mine is in E:\Downloads\ so my path to file is E:\Downloads\powbot-install.jar
+Find your installer file and copy it's path. For me, mine is in E:\Downloads\ so my path to file is E:\Downloads\powbot-installer.jar
 
 Open CMD and paste in the following command, replacing PATHTOFILE with the path to your installer file from the above step.
 
