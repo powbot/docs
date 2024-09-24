@@ -73,7 +73,7 @@ nav:
           - 'Using Waits': 'Development/Quirks/UsingWaits.md'
           - 'Widget Interactions': 'Development/Quirks/WidgetInteracting.md'
       - 'Script Writers':
-          - 'Ranks': 'Development/Script_writers/ScriptWriterRanks.md'
+          - 'Ranks': 'Development/Script_Writers/ScriptWriterRanks.md'
   - Scripts: 'Scripts.md'
   - Help & Support: 'Help_And_Support/temp.md'
 
