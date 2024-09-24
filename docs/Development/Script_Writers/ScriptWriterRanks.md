@@ -6,7 +6,7 @@ Any script put forward for an application must be able to show a good amount of 
 
 There are 3 ranks available
 
-[Script Writer 1](/Script_Writer_Ranks/ScriptWriterRanks/#Script_Writer_1) | [Script Writer 2](/Script_Writer_Ranks/ScriptWriterRanks#Script_Writer_2) | [Script Writer 3](/Script_Writer_Ranks/ScriptWriterRanks/#Script_Writer_3)
+[Script Writer 1](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-1) | [Script Writer 2](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-2) | [Script Writer 3](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-3)
 
 ## Script Writer 1
 
