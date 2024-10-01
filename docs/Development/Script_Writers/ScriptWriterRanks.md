@@ -6,7 +6,7 @@ Any script put forward for an application must be able to show a good amount of 
 
 There are 3 ranks available
 
-[Script Writer 1](/Script_Writer_Ranks/ScriptWriterRanks?id=script-writer-1) | [Script Writer 2](/Script_Writer_Ranks/ScriptWriterRanks?id=script-writer-2) | [Script Writer 3](/Script_Writer_Ranks/ScriptWriterRanks?id=script-writer-3)
+[Script Writer 1](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-1) | [Script Writer 2](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-2) | [Script Writer 3](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-3)
 
 ## Script Writer 1
 
@@ -32,7 +32,8 @@ There are 3 ranks available
 ### Benefits
 - 4 free VIP instances of the client allowing you to develop without the worry of paying for your subscription. Since you’re giving more back to the community, as do we to you.
 - SW2 Rank applied on discord.
-- The availability to offer private script sales (You and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
+- The availability to offer private script sales (You, and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
+- The ability to apply for premium scripts. For more details on this, please reach out to either Dan or const_
 - The opportunity to apply for SW3.
 
 ## Script Writer 3
@@ -40,15 +41,16 @@ There are 3 ranks available
 ### Requirements
 - All the prior SW1 & 2 requirements
 - A more complex script(s) than what we’d expect for SW2 and/or multiple complex scripts. Explore more of the API and utilise it efficiently and correctly.
-- You must keep and maintain at least 5+ scripts with two or more of these meeting the prior mentioned complexity requirement.
+- You must keep and maintain at least 5+ scripts with two or more of these meeting the prior mentioned complexity requirement. SW3 is where we'd be expecting our premium script writers to be although not required.
+- Well integrated into the community. A reputation for timely fixes and good quality scripts.
 - Unless a valid reason is present, upload to a public GitHub repo and post the link in your application. This will be reviewed, and any feedback provided by anyone with equal or greater rank.
 
 ### Benefits
 - 6 free VIP instances of the client allowing you to develop without the worry of paying for your subscription. Since you’re giving more back to the community, as do we to you.
 - SW3 Rank applied on discord.
-- The availability to offer private script sales (You and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
+- The availability to offer private script sales (You, and only you are accountable for your sales and any interactions with users; we as Pow retain the right to remove this perk at our own discretion)
 - The satisfaction of knowing there’s no more ranks to achieve as an SW.
-- 
+
 ### Premium Scripts
 To apply, open a ticket in the [premium-script-submission](https://discord.com/channels/341014842745815054/1110596246554542143) channel.
 Be prepared however to provide information such as the following:
@@ -76,6 +78,6 @@ Along with discussions about any further features, tweaks, possible lite version
 - Payments are managed by Pow, a hands-off approach for you.
     - 70/30 (SW/Pow)
       - Just a reminder, if you're not a fan, you can manage your own payments privately for 100%.
-- Multiple withdraw options
-  - So the tokens a user spends on a premium script, get added to your balance.
-  - You can either use them, sell them for gp, crypto, feet pics etc or cash out with an invoice with @Okazaki.
+- Payments made in tokens
+  - So the tokens a user spends on a premium script, get added to your balance (minus the 30% Pow cut).
+  - You can either use them, sell them for gp, crypto, feet pics etc or if you have a UK bank, you can have an invoice paid out via UKBT.
