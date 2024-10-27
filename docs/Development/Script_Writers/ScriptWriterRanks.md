@@ -6,9 +6,7 @@ Any script put forward for an application must be able to show a good amount of 
 
 There are 3 ranks available
 
-[Script Writer 1](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-1) | [Script Writer 2](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-2) | [Script Writer 3](/Script_Writer_Ranks/ScriptWriterRanks/#script-writer-3)
-
-## Script Writer 1
+# Script Writer 1
 
 ### Requirements
 - Script must not be a simple or easy script to make. Something like (but not limited to) a powerminer wouldn’t suffice.  
@@ -20,7 +18,7 @@ There are 3 ranks available
 - SW1 Rank applied on discord.  
 - The opportunity to apply for SW2.  
 
-## Script Writer 2
+# Script Writer 2
 
 ### Requirements
 - All the prior SW1 requirements

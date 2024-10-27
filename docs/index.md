@@ -5,9 +5,9 @@ hide:
   - footer
 ---
 
-# Welcome to PowBot Docs
+# PowBot - The best mobile botting client.
 
-Welcome to the official documentation for PowBot! Here, you'll find all the information you need to get started*,
+Welcome to the official PowBot site! Here, you'll find all the information you need to get started*,
 understand the fundamentals, and get help & support.
 
 <div><span style="font-size:0.65em;">* Note: You require a PowBot account with a VIP subscription to use the client. The <strong>only</strong> way to get an account is by winning one of the giveaways which we regularly host in our discord.</span>  
@@ -22,7 +22,7 @@ understand the fundamentals, and get help & support.
 
     Find guides for installing PowBot on emulators/real devices, using proxies and more!
 
-    [:octicons-arrow-right-24: Getting started](Getting_Started/Installation.md)
+    [:octicons-arrow-right-24: Getting started](Getting_Started/)
 
 -   :material-console:{ .lg .middle } __Create your own scripts__
 
@@ -61,7 +61,7 @@ For real-time help and to connect with other users, join our Discord community:
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute to this documentation, create a pull request with your changes to
+We welcome contributions! If you'd like to contribute to this site, create a pull request with your changes to
 our [GitHub repository](https://github.com/powbot/docs).
 
 ---
