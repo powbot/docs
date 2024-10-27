@@ -1,4 +1,4 @@
-site_name: PowBot Docs
+site_name: PowBot Mobile
 site_url: https://docs.powbot.org/
 extra_css:
   - assets/styles.css
@@ -29,10 +29,15 @@ theme:
 nav:
   - Home: index.md
   - Getting started:
-      - 'Installation': 'Getting_Started/Installation.md'
+      - 'Index': 'Getting_Started/index.md'
+      - 'Installation': 
+        - 'Requirements': 'Getting_Started/install/index.md'
+        - 'Devices': 'Getting_Started/install/devices.md'
+        - 'Bluestacks': 'Getting_Started/install/bluestacks.md'
+        - 'LDPlayer': 'Getting_Started/install/ldplayer.md'
       - 'Logging': 'Getting_Started/Logging.md'
       - 'Proxy Setup':
-          - 'RethingDNS': 'Getting_Started/Proxy_Setup/Rethink.md'
+          - 'RethinkDNS': 'Getting_Started/Proxy_Setup/Rethink.md'
           - 'SocksTun': 'Getting_Started/Proxy_Setup/SocksTun.md'
       - 'Jagex account setup': 'Getting_Started/TransferringToJagexAccount.md'
 
@@ -53,14 +58,14 @@ nav:
           - 'Objects': 'Development/API/Objects.md'
           - 'PaintBuilder': 'Development/API/PaintBuilderAPI.md'
           - 'Prayer': 'Development/API/PrayerAPI.md'
-          - 'Rendering': 'Development/Quirks/Rendering.md'
+          - 'Rendering': 'Development/API/Rendering.md'
           - 'Skills': 'Development/API/SkillsAPI.md'
           - 'Store': 'Development/API/StoreAPI.md'
           - 'Varpbits': 'Development/API/Varpbits.md'
           - 'Waits/Sleep': 'Development/API/Waits.md'
           - 'Walking': 'Development/API/Walking.md'
           - 'Widgets': 'Development/API/Widgets.md'
-          - 'World': 'Development/Quirks/WorldHopping.md'
+          - 'World': 'Development/API/WorldHopping.md'
 
       - 'Quirks':
           - 'Interaction Types': 'Development/Quirks/InteractionTypes.md'

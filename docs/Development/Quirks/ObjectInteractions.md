@@ -32,8 +32,3 @@ Secondly, I'm passing the iron ore as an entire array to the id() filter. This w
 Lastly, I use nearest() to take the one closest to me. This again helps stop me running everywhere for iron ore.
 
 So, now we've filtered our object stream for any object that we need, and then we took the first one using first().
-
-
-## Using items on objects
-
-This is a rather big section already covered in [Inventory Interactions](/Fundamentals_In_Practice/InventoryInteractions) so, rather than repeat myself, go check it out!

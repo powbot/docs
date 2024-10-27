@@ -21,7 +21,7 @@ You could wait longer than needed because you mined in 1 tick and got lucky.
 
 ## How Then?
 
-[Conditional.wait()](/Basic_Fundamentals/Waits)
+Waits/Sleeps.
 
 These can be so much more useful than people think. I use mine as a reaction. It essentially allows me to react to the boolean dynamically rather than waiting for a fixed time.
 
