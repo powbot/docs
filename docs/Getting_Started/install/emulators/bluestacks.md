@@ -104,11 +104,9 @@ Select it and click on the `Install` button. When prompted for what version to i
 * Release: The latest stable version of PowBot. This is usually the most stable version of the client to use.
 * Beta: The latest beta version of PowBot. This may have new features that are not yet available in the release version, but may also have bugs.
 
-![alt text](image-5.png){: style="height:250px"}
 
 Now sit back and wait for the installation to complete. Once done, you will see the game open up on your instance followed shortly by the PowBot Login screen.
 
 
-![alt text](image-17.png){: style="height:350px"}
-
+![alt text](image-117.png){: style="height:350px"}
 

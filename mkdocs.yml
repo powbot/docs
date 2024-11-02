@@ -12,13 +12,14 @@ theme:
       scheme: slate
       primary: black
   features:
+    - navigation.indexes
     - navigation.tabs
     - navigation.top
     - navigation.path
     - navigation.instant
     - navigation.footer
-    - navigation.instant.progress
     - toc.integrate
+    - toc.follow
     - search.suggest
     - search.highlight
     - search.share
@@ -28,13 +29,18 @@ theme:
     - content.tabs.link
 nav:
   - Home: index.md
-  - Getting started:
-      - 'Index': 'Getting_Started/index.md'
+  - Scripts: 'Scripts.md'
+  - Guides:
+      - 'Guides': 'Getting_Started/index.md'
       - 'Installation': 
-        - 'Requirements': 'Getting_Started/install/index.md'
-        - 'Devices': 'Getting_Started/install/devices.md'
-        - 'Bluestacks': 'Getting_Started/install/bluestacks.md'
-        - 'LDPlayer': 'Getting_Started/install/ldplayer.md'
+        - 'Base Requirements': 'Getting_Started/install/index.md'
+        - 'Devices': 
+          - 'Device Requirements': 'Getting_Started/install/devices/index.md'
+          - 'Installing PowBot': 'Getting_Started/install/devices/install.md'
+        - 'Emulators': 
+          - 'EmulatorRequirements': 'Getting_Started/install/emulators/index.md'
+          - 'Bluestacks': 'Getting_Started/install/emulators/bluestacks.md'
+          - 'LDPlayer': 'Getting_Started/install/emulators/ldplayer.md'
       - 'Logging': 'Getting_Started/Logging.md'
       - 'Proxy Setup':
           - 'RethinkDNS': 'Getting_Started/Proxy_Setup/Rethink.md'
@@ -80,7 +86,6 @@ nav:
 
       - 'Script Writers':
           - 'Ranks': 'Development/Script_Writers/ScriptWriterRanks.md'
-  - Scripts: 'Scripts.md'
   - Help & Support: 'Help_And_Support/temp.md'
 
 extra:
