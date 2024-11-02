@@ -18,8 +18,8 @@ theme:
     - navigation.path
     - navigation.instant
     - navigation.footer
-    - navigation.instant.progress
     - toc.integrate
+    - toc.follow
     - search.suggest
     - search.highlight
     - search.share
@@ -31,14 +31,14 @@ nav:
   - Home: index.md
   - Scripts: 'Scripts.md'
   - Guides:
-      - 'Index': 'Getting_Started/index.md'
+      - 'Guides': 'Getting_Started/index.md'
       - 'Installation': 
-        - 'Requirements': 'Getting_Started/install/index.md'
+        - 'Base Requirements': 'Getting_Started/install/index.md'
         - 'Devices': 
-          - 'Index': 'Getting_Started/install/devices/index.md'
+          - 'Device Requirements': 'Getting_Started/install/devices/index.md'
           - 'Installing PowBot': 'Getting_Started/install/devices/install.md'
         - 'Emulators': 
-          - 'Requirements': 'Getting_Started/install/emulators/index.md'
+          - 'EmulatorRequirements': 'Getting_Started/install/emulators/index.md'
           - 'Bluestacks': 'Getting_Started/install/emulators/bluestacks.md'
           - 'LDPlayer': 'Getting_Started/install/emulators/ldplayer.md'
       - 'Logging': 'Getting_Started/Logging.md'
