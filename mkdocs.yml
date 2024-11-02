@@ -12,6 +12,7 @@ theme:
       scheme: slate
       primary: black
   features:
+    - navigation.indexes
     - navigation.tabs
     - navigation.top
     - navigation.path
