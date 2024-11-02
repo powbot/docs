@@ -33,9 +33,13 @@ nav:
       - 'Index': 'Getting_Started/index.md'
       - 'Installation': 
         - 'Requirements': 'Getting_Started/install/index.md'
-        - 'Devices': 'Getting_Started/install/devices.md'
-        - 'Bluestacks': 'Getting_Started/install/bluestacks.md'
-        - 'LDPlayer': 'Getting_Started/install/ldplayer.md'
+        - 'Devices': 
+          - 'Index': 'Getting_Started/install/devices/index.md'
+          - 'Installing PowBot': 'Getting_Started/install/devices/install.md'
+        - 'Emulators': 
+          - 'Requirements': 'Getting_Started/install/emulators/index.md'
+          - 'Bluestacks': 'Getting_Started/install/emulators/bluestacks.md'
+          - 'LDPlayer': 'Getting_Started/install/emulators/ldplayer.md'
       - 'Logging': 'Getting_Started/Logging.md'
       - 'Proxy Setup':
           - 'RethinkDNS': 'Getting_Started/Proxy_Setup/Rethink.md'

@@ -1,4 +1,6 @@
 ---
+description: PowBot is an application for your computer that allows you to automate a wide range of tasks in OSRS.
+
 hide:
   - navigation
   - toc
@@ -7,16 +9,12 @@ hide:
 
 # PowBot - The best mobile botting client.
 
-Welcome to the official PowBot site! Here, you'll find all the information you need to get started*,
-understand the fundamentals, and get help & support.
 
-<div><span style="font-size:0.65em;">* Note: You require a PowBot account with a VIP subscription to use the client. The <strong>only</strong> way to get an account is by winning one of the giveaways which we regularly host in our discord.</span>  
-</div>
 
 
 <div class="grid cards" markdown>
 
--   :material-cellphone-arrow-down-variant:{ .lg .middle } __Base guides__
+-   :material-cellphone-arrow-down-variant:{ .lg .middle } __Get Started__
 
     ---
 
@@ -45,7 +43,7 @@ understand the fundamentals, and get help & support.
 
 ## Join Our Community
 
-For real-time help and to connect with other users, join our Discord community:
+Our home is on Discord. Join us to get manage your account, get help, and see more of what PowBot has to offer.
 
 <div style="text-align: center;">
     <a href="https://discord.gg/your-discord-invite-code">
@@ -57,7 +55,6 @@ For real-time help and to connect with other users, join our Discord community:
 
 - [API JDocs](https://docs.powbot.org/jdocs)
 - [Powbot Store](https://powbot.store/)
-- [Script list](https://protoscripts.xyz/)
 
 ## Contributing
 
