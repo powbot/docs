@@ -1,2 +1,5 @@
 .nojekyll
 /.venv/
+/Lib
+/Scripts
+pyvenv.cfg
