@@ -63,4 +63,4 @@ Now sit back and wait for the installation to complete. Once done, you will see 
 * If you are having trouble getting the installer to detect your device, please ensure that you have enabled USB debugging and that your device is connected to your PC via a working USB cable.
 
 
-* If you are still having trouble, please join our [Discord server](https://discord.gg/powbot) and ask for help in the [`#help`](https://discordapp.com/channels/341014842745815054/1037874582222274612) channel.
+* If you are still having trouble, please join our [Discord server](https://discord.gg/Y8TGmMh47r) and ask for help in the [`#help`](https://discordapp.com/channels/341014842745815054/1037874582222274612) channel.

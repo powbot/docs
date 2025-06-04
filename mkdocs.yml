@@ -92,7 +92,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/powbot
+      link: https://discord.gg/Y8TGmMh47r
 
 markdown_extensions:
   - codehilite

@@ -8,7 +8,7 @@ We highly recommend you to use Bluestacks 5 or LDPlayer on a Windows machine for
 
 **Q: Can I run PowBot on a Mac?**
 
-- A: Yes, you can run PowBot on a Mac. We do not currently have any guides for this but our users have reported success using Genymotion on ARM Macs, and AVD on Intel Macs. Please join our [Discord](https://discord.gg/powbot) and ask in the #help channel if you need help with this.
+- A: Yes, you can run PowBot on a Mac. We do not currently have any guides for this but our users have reported success using Genymotion on ARM Macs, and AVD on Intel Macs. Please join our [Discord](https://discord.gg/Y8TGmMh47r) and ask in the #help channel if you need help with this.
 
 **Q: Can I run PowBot on a Linux machine?**
 

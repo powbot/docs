@@ -18,4 +18,4 @@ Although PowBot can be installed on both emulators and real devices, the steps a
 * Needs to be running a **64-bit** (ARM) version of Android.
 * **Must not** have the game installed already (including not in any 'Secure folder' or such.).
 
-Be aware that you will be requiered to re-run the PowBot Installer when major updates are released. This usually happens once every 1-2 months. You will be notified in the [Discord server](https://discord.gg/powbot) when this happens.
+Be aware that you will be requiered to re-run the PowBot Installer when major updates are released. This usually happens once every 1-2 months. You will be notified in the [Discord server](https://discord.gg/Y8TGmMh47r) when this happens.
