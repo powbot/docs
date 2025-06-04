@@ -1,0 +1,1962 @@
+[
+    {
+        "name": "GenericBanker",
+        "description": "Withdraws/deposits stuff for you.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311020"
+    },
+    {
+        "name": "PowGoblins",
+        "description": "Kills Goblins, buries bones and banks goblin mail",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311047"
+    },
+    {
+        "name": "OelZalcano",
+        "description": "Kills Zalcano! Read the script instructions!",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311276"
+    },
+    {
+        "name": "krul Miner",
+        "description": "Mines & banks anything, anywhere (supports motherlode)",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311288"
+    },
+    {
+        "name": "PowPestControl",
+        "description": "Plays the pest control minigame, start geared up",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311431"
+    },
+    {
+        "name": "Auto 3T Fish",
+        "description": "Automatically 3-tick fishes at the Chamber of Xeric mountain fishing spots",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311634"
+    },
+    {
+        "name": "SwiftFire",
+        "description": "Makes fires the oldschool way",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311646"
+    },
+    {
+        "name": "OelPizzaMaker",
+        "description": "Makes all kinds of delicious pizzas",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311652"
+    },
+    {
+        "name": "OkaBlueDragons",
+        "description": "Kills blue dragons for bones+hide.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311658"
+    },
+    {
+        "name": "DChompy",
+        "description": "Kills chompies",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311665"
+    },
+    {
+        "name": "NullF2PTanner",
+        "description": "Kills cows in Lumbridge and then tans them. Start from anywhere with coins in your inventory.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311673"
+    },
+    {
+        "name": "Proto Stall Thiever",
+        "description": "Make sure to use spots where you won't be attacked.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311678"
+    },
+    {
+        "name": "NullWoodcutter",
+        "description": "Supports regular woodcutting and progressive woodcutting.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311685"
+    },
+    {
+        "name": ".Tithe Farm",
+        "description": "Tithe farm minigame | Supports up to 25 patches | Graceful & farmer outfit swap | Stamina & Super Energy | Gricoller's Can | Depositing Fruits |",
+        "premium": true,
+        "perMinuteRate": "3",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311692"
+    },
+    {
+        "name": "Pow Tutorial",
+        "description": "Beta script. Completes Tutorial Island from start to finish.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311697"
+    },
+    {
+        "name": ".Magic",
+        "description": "Formerly PowMagic | AIO Magic Autonomy. Regular | Lunar | Arceuus, alch, curse, splash, bolt & jewelery enchants, tele, superglass, humidify, superheating, telealch, stun alch, ring of recoils, plank make & more!",
+        "premium": true,
+        "perMinuteRate": "4",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311854"
+    },
+    {
+        "name": "rCharter",
+        "description": "Casts superglass-make at charter ships",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311950"
+    },
+    {
+        "name": "Bank Withdraw",
+        "description": "Withdraws items from bank",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311957"
+    },
+    {
+        "name": "Proto Abyss Runecrafter",
+        "description": "Deathwalking, muling and runecrafting!",
+        "premium": true,
+        "perMinuteRate": "4",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311964"
+    },
+    {
+        "name": "OelMule",
+        "description": "Used in combination with other oel scripts. Accepts trades.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311970"
+    },
+    {
+        "name": "FnLavaDragon (BETA)",
+        "description": "Lava Dragon Farming BETA. Keep an eye on it. Report bugs in the discord @finn or in DMs! \nSuggested: 15+ agility \n!Required: Member rank. \n!Required: 13+ magic, 19+ health, air+mind or chaos runes in bank 1000+, 100+ food in bank, several fire staff.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311977"
+    },
+    {
+        "name": "SwiftSolver",
+        "description": "Solves medium clues",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311984"
+    },
+    {
+        "name": "PowRunecrafter",
+        "description": "Highly automated Runecrafting bot for OSRS - supports all F2P runes. Level your Runecrafting quick and easy.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.311989"
+    },
+    {
+        "name": "Laz Wraths",
+        "description": "Runecrafts scripts.wraths runes. Stops when out of stamina or food. Start with a crafting cape, colossal pouch and mythical cape in your inventory",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312085"
+    },
+    {
+        "name": "Proto Crabs",
+        "description": "Supports sand and ammonite crabs! Start in chosen tile/location",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312092"
+    },
+    {
+        "name": "Troll Arceuus",
+        "description": "Mine/Crafts bloods and then DROPS runes. Requires 73+ agility for shortcuts",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312107"
+    },
+    {
+        "name": "PowWalker",
+        "description": "Walks around for you",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312113"
+    },
+    {
+        "name": "Solo Wintertodt",
+        "description": "Solo winterotdt script. Requires 60 agility, druidic ritual and cake/saradomin brews. good for construction/firemaking exp",
+        "premium": true,
+        "perMinuteRate": "4",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312121"
+    },
+    {
+        "name": "nsc Birdhouses",
+        "description": "Does birdhouse runs. Please check setup requirements in Script-Updates before starting.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312126"
+    },
+    {
+        "name": "krul Woodcutter",
+        "description": "Chops any tree, anywhere",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312133"
+    },
+    {
+        "name": "krul Combiner",
+        "description": "Can do any 'interact & wait' Cooking, Crafting, Fletching, Smithing, Smelting",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312217"
+    },
+    {
+        "name": "DPrayer",
+        "description": "Trains prayer at a POH",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312318"
+    },
+    {
+        "name": ".Herbiboar",
+        "description": "Tracks herbiboar | Herb sack | Noting herbs | Energy, Super energy & Staminas.",
+        "premium": true,
+        "perMinuteRate": "4",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312327"
+    },
+    {
+        "name": "Unicorn horn",
+        "description": "Kills unicorn at lands end and crushes with pestle and mortar.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312334"
+    },
+    {
+        "name": "BB Arceuus",
+        "description": "Creates blood or soul runes and arceuus tablets.\nStart with a pickaxe, chisel and the required runes for the tablets. Weight reducing equipment is recommended.\nStart at expected location.\nUtilises the agility shortcut.\nWhen crafting tablets, the script will wait until home teleport is available.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312347"
+    },
+    {
+        "name": "krul Runecrafter",
+        "description": "Supports Abyss, Astral & ZMI/Ourania, Repairs pouches, restores energy",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312354"
+    },
+    {
+        "name": "Fork's Giants Foundry",
+        "description": "Completes Giants Foundry",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312380"
+    },
+    {
+        "name": "OelBonder",
+        "description": "Bonds the account if it has no membership yet by buying a bond from the GE",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312381"
+    },
+    {
+        "name": "Feldip Weasels",
+        "description": "Tracks Feldip weasels for early hunter experience",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312385"
+    },
+    {
+        "name": "NullRunecrafter",
+        "description": "Basic runecrafter with pouch support.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312386"
+    },
+    {
+        "name": ".Herblore",
+        "description": "Formerly DotHerblore | Herblore Training. All herb cleaning & potions, Barbarian Potions and Tars & More!",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312388"
+    },
+    {
+        "name": ".BF Pumper",
+        "description": "Very simple BF pumper. Keeps you logged in while pumping.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312407"
+    },
+    {
+        "name": "PTY prayer",
+        "description": "Does prayer at a house using home teleport or Phials. Start with tinderbox and near the bank.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312409"
+    },
+    {
+        "name": "krul MagicTrainingArena",
+        "description": "Does MTA for points, make sure to have required runes + staff equipped.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312410"
+    },
+    {
+        "name": "krul DaeyaltMiner",
+        "description": "Mines Daeyalt essence",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312412"
+    },
+    {
+        "name": ".ShopBuyer",
+        "description": "Universal AIO shop buyer. Hopping is quicker if worlds are sorted in numerical order",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312413"
+    },
+    {
+        "name": "Infernal Eels",
+        "description": "Fishes and smashes infernal eels",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312415"
+    },
+    {
+        "name": "NullAirOrbCharging",
+        "description": "Charges air orbs",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312420"
+    },
+    {
+        "name": ".Lava Runes",
+        "description": "A runecrafter for lava runes. Requires duel rings, binding necklaces, earth talisman, earth runes & pure essence.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312421"
+    },
+    {
+        "name": ".Lava Runes",
+        "description": "A runecrafter for lava runes. Requires duel rings, binding necklaces, earth talisman, earth runes & pure essence.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312423"
+    },
+    {
+        "name": "Air Orb Charger by Humanlike",
+        "description": "Charges Air orbs for profit. Supports muling",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312424"
+    },
+    {
+        "name": "PowCows",
+        "description": "Kills Cows, buries bones, loots raw beef and cowhides",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312426"
+    },
+    {
+        "name": "nsc VyrewatchSentinels",
+        "description": "Kills Vyrewatch Sentinels in Darkmeyer. Must have necessary requirements completed (Quest: Sins of the Father, Items: Ring of Dueling + Gear setup already equipped). Must start script at Ferox Enclave bank location.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312445"
+    },
+    {
+        "name": "Humanlike Shayzien Infirmary",
+        "description": "Heals soldiers at the bots.infirmary for Shayzien favour",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312447"
+    },
+    {
+        "name": ".Woodcutter",
+        "description": "Formerly PowWoodcutter | A woodcutter with unique randomised drop patterns and/or banking & world hopping.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312448"
+    },
+    {
+        "name": "Proto POH Prayer",
+        "description": "Have noted bones & coins. Uses Phials to offer bones in Rimmington POH. ",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312479"
+    },
+    {
+        "name": "rTzhaarGems",
+        "description": "Buys gems from the Tzhaar gem shop, supports gem bag",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312481"
+    },
+    {
+        "name": "rGorillas",
+        "description": "Kills demonic gorillas for money",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312482"
+    },
+    {
+        "name": "Simple Crafter",
+        "description": "It Crafts.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312484"
+    },
+    {
+        "name": "Proto Falconry",
+        "description": "Trains hunter at the falconry area",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312504"
+    },
+    {
+        "name": "krul Tempoross",
+        "description": "Does tempoross minigame",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312506"
+    },
+    {
+        "name": "PowConstruction",
+        "description": "Builds and removes objects in your house",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312525"
+    },
+    {
+        "name": "OelMessHall",
+        "description": "Runs the mess hall",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312544"
+    },
+    {
+        "name": "Proto Aerial Fisher",
+        "description": "Fishing for hunter! Start on molch island and have a knife in inventory",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312545"
+    },
+    {
+        "name": ".RoofRunner",
+        "description": "Gnome course through to Ardy & Prif Rooftop courses. Food, Stamina & Alching support. Also includes Seers tele support.",
+        "premium": true,
+        "perMinuteRate": "5",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312547"
+    },
+    {
+        "name": "Open Quester",
+        "description": "Finishes Quests",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312550"
+    },
+    {
+        "name": "BB Arceuus Reanimation",
+        "description": "Reanimates ensouled heads for prayer experience.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312552"
+    },
+    {
+        "name": "Fork's Wintertodt",
+        "description": "Does Wintertodt n stuff",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312553"
+    },
+    {
+        "name": "Simple Fisher",
+        "description": "It fishes/banks and does fishing trawler.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312555"
+    },
+    {
+        "name": "rGrabber",
+        "description": "Loots items off the ground & banks.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312575"
+    },
+    {
+        "name": "krul BlastFurnace",
+        "description": "Smelts bars at Blast Furnace",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312577"
+    },
+    {
+        "name": "krul Orbs",
+        "description": "Craft orbs",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312598"
+    },
+    {
+        "name": ".Crafting",
+        "description": "Formerly PowCrafting | AIO Crafting Training. D'hides, Battlestaves, Glassblowing, Spinning flax & MORE!",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312621"
+    },
+    {
+        "name": "OelMagicTrainingArena",
+        "description": "Plays the magic training arena minigame",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312640"
+    },
+    {
+        "name": "DTithe",
+        "description": "Trains farming at Tithe farm",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312643"
+    },
+    {
+        "name": "OelVardorvis",
+        "description": "Kills Vardorvis! Read the script instructions!",
+        "premium": true,
+        "perMinuteRate": "5",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312646"
+    },
+    {
+        "name": ".Blackjack",
+        "description": "Blackjacks bandits and thugs",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312648"
+    },
+    {
+        "name": "BB Daeyalt miner",
+        "description": "Mines daeyalt essence. Start in the daeyalt mine with a pickaxe equipped or inventory.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312650"
+    },
+    {
+        "name": ".BarbarianFishing",
+        "description": "Formerly PowBarbarianFishing | Basic power fisher for barbarian fishing with unique randomised drop patterns.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312653"
+    },
+    {
+        "name": "NullThiever",
+        "description": "Intelligent thieving script. Start in the area you want to thieve in.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312654"
+    },
+    {
+        "name": "krul GiantFoundry",
+        "description": "Makes swords for big giant.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312656"
+    },
+    {
+        "name": ".Miner",
+        "description": "Power Mining | Banking | World Hopping ",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312658"
+    },
+    {
+        "name": "krul Tokens",
+        "description": "Gets tokens in Warrior's Guild",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312659"
+    },
+    {
+        "name": ".Construction",
+        "description": "Chairs, Tables, Benches, Dungeon doors & Mythical capes",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312679"
+    },
+    {
+        "name": "nsc PyramidPlunder",
+        "description": "Completes Pyramid Plunder mini-game. Please read Discord's script info before starting.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312681"
+    },
+    {
+        "name": "DGuardians",
+        "description": "Plays the Guardians of the Rift minigame",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312683"
+    },
+    {
+        "name": "Kourend Woodcutting",
+        "description": "Progressive woodcutter in Kourend, it will automatically calculate the best firemaking tiles. Later will support dropping.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312685"
+    },
+    {
+        "name": "Proto Simple Fighter",
+        "description": "Very basic npc killer. Exits when out of food",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312687"
+    },
+    {
+        "name": "FnResourceRunner",
+        "description": "Mule, gets specified inventory items from bank to player.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312688"
+    },
+    {
+        "name": "typical Temple Trekking",
+        "description": "Solves the Temple Trekking mini game using the easy route.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312689"
+    },
+    {
+        "name": "Simple Cooker",
+        "description": "It Cooks.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312690"
+    },
+    {
+        "name": ".Hunter[LITE]",
+        "description": "2 hour free trial of .Hunter",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312700"
+    },
+    {
+        "name": "PathBuilder",
+        "description": "Build a tile path and prints it in log for manual pathing",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312701"
+    },
+    {
+        "name": "NullCooker",
+        "description": "Start from anywhere with any inventory. Support for various fish and locations.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312703"
+    },
+    {
+        "name": "HellratCatcher",
+        "description": "Collects spices from Evil Dave's basement.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312705"
+    },
+    {
+        "name": "rVyreThiever",
+        "description": "Steals from vyres in Darkmeyer. Supports dodgy necklaces and shadow veil.",
+        "premium": true,
+        "perMinuteRate": "5",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312706"
+    },
+    {
+        "name": "Auto 4T3G",
+        "description": "Automatically powermines granite using the 4t addy pick method",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312709"
+    },
+    {
+        "name": "OkaMythDragons",
+        "description": "Kills dragons in myth guild.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312715"
+    },
+    {
+        "name": "Fork's Player Scouter",
+        "description": "Scouts players and posts discord notifications",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312716"
+    },
+    {
+        "name": "Farmer",
+        "description": "Farms and shit",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312726"
+    },
+    {
+        "name": "Humanlike Mort myre fungus",
+        "description": "Collects mort myre fungus.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312750"
+    },
+    {
+        "name": "rDarkTablets",
+        "description": "Creates tablets in Arceuus.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312752"
+    },
+    {
+        "name": "Laz TrueBlood",
+        "description": "Runecrafts blood runes through the blood altar. Start script with any Raiments of the eye clothing, staff equipped at Castle Wars, Edgville bank or Crafting guild. Requires house with fairy ring, construction cape/house tablets.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312754"
+    },
+    {
+        "name": "PowPlanker",
+        "description": "Makes planks in Varrock",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312756"
+    },
+    {
+        "name": "DArceuus",
+        "description": "Crafts blood and soul runes in Arceuus",
+        "premium": true,
+        "perMinuteRate": "3",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312776"
+    },
+    {
+        "name": "House fungus",
+        "description": "Gets fungus using house and glory+Dramen staff. Does not eat so don't die",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312778"
+    },
+    {
+        "name": "Humanlike Undead Druid Killer",
+        "description": "Kills Undead Druids in the Forthos dungeon for experience and profit.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312780"
+    },
+    {
+        "name": "Item Actions",
+        "description": "Does actions on inventory items well",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312781"
+    },
+    {
+        "name": ".NMZ",
+        "description": "Formerly PowNMZ | Nightmare zone(NMZ) | Powerups | Specs | Boosts | Restocking & More!",
+        "premium": true,
+        "perMinuteRate": "5",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312783"
+    },
+    {
+        "name": "BB Tablet Maker",
+        "description": "Creates teleport tablets.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312784"
+    },
+    {
+        "name": "Proto Barbarian Fisher",
+        "description": "Fishes at the barbarian outpost. Make sure to have feathers and the rod in inventory.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312786"
+    },
+    {
+        "name": "OkaMortMyreFungus",
+        "description": "Gathers mort myre fungus via drakan's medallion.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312787"
+    },
+    {
+        "name": "PTY Tithe",
+        "description": "Start inside the tithe farm, re-fills can and does 24/25 method. Auto upgrades seeds/Griolle can detection on startup. Requires stamina potions",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312788"
+    },
+    {
+        "name": "OelTanner",
+        "description": "Tans hides",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312790"
+    },
+    {
+        "name": "krul Smither",
+        "description": "Smiths stuff from bars",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312791"
+    },
+    {
+        "name": ".Vorkath",
+        "description": "Vorkath  \ud83d\udd25 \ud83d\udc09 \ud83d\udd25",
+        "premium": true,
+        "perMinuteRate": "8",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312812"
+    },
+    {
+        "name": "krul Tithe",
+        "description": "Tithe farming mini-game",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312814"
+    },
+    {
+        "name": "OelSeaweed",
+        "description": "Afks at the seaweed patches and rakes/plants/cures/harvests when possible. Also picks up seaweed spores",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312832"
+    },
+    {
+        "name": "Open Abyss",
+        "description": "Crafts rune using the abyss.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312835"
+    },
+    {
+        "name": "rPrayer",
+        "description": "Trains prayer in a POH. Supports lighting burners.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312857"
+    },
+    {
+        "name": "DElves",
+        "description": "Steals from Elves in Prifddinas for amazing money",
+        "premium": true,
+        "perMinuteRate": "10",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312862"
+    },
+    {
+        "name": "PTY Blastfurnace",
+        "description": "Does bars at blast furnace. Need ice gloves/goldsmith gaunlets, coins in storage and smithing level required.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312867"
+    },
+    {
+        "name": "Natural History Museum",
+        "description": "Completes the Natural History Museum quest.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312869"
+    },
+    {
+        "name": "rCannoner",
+        "description": "Cannons while doing other tasks",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312871"
+    },
+    {
+        "name": "OelScurrius",
+        "description": "Kills Scurrius",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312873"
+    },
+    {
+        "name": "OelRunedoku",
+        "description": "Plays the rune sudoku minigame and purchases the target rune(s)",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312874"
+    },
+    {
+        "name": "BB ClueScroll",
+        "description": "Completes medium clue scrolls.\nHave eclectic impling jars in bank.\nStart script with a Dramen/Lunar staff if you wish to use fairy rings.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312875"
+    },
+    {
+        "name": "NullCannonballer",
+        "description": "Smelts cannonballs at edgeville",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312877"
+    },
+    {
+        "name": "Auto POH Prayer",
+        "description": "Trains prayer in your POH by unnoting supplies at Phials in Rimmington",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312879"
+    },
+    {
+        "name": "BB Elf Thiever",
+        "description": "Thieves elves in prifddinas. Supports food, dodgy necklaces and shadow veil.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312881"
+    },
+    {
+        "name": "PTY Barrows",
+        "description": "Private barrows script, pm PTY#6464 for more information.",
+        "premium": true,
+        "perMinuteRate": "6",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312882"
+    },
+    {
+        "name": "OelCalcifiedRocks",
+        "description": "Mines calcified rocks using 1.5 tick method. Uses teak log/knife. Start at the mine at the wall of your choice. Will automatically switch walls when needed.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312885"
+    },
+    {
+        "name": "Laz MahoganyHomes",
+        "description": "Ensure that the XP tracker in paint is functioning, as the script relies on it. If it's not working, please try to clear the cache. Completes the mahogany homes minigame. Make sure your house is located in Hosidius and you've already had your first contract from Amy! Start with the teleportation requirements in your inventory. Without planksack it uses 2 steel bars, else 4.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312887"
+    },
+    {
+        "name": "krul ChompyBird",
+        "description": "Kills chompy birds, doesn't Pluck",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312888"
+    },
+    {
+        "name": ".RangeGuild",
+        "description": "Completes The NO HP Range Guild Minigame, 32K xp/hr | 51K gp/hr",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312889"
+    },
+    {
+        "name": "Proto Runecrafter Lite",
+        "description": "Have tiara in equipment. Dueling ring (8) req for fire runes.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312910"
+    },
+    {
+        "name": "OelBaggedPlants",
+        "description": "Builds bagged plants 1/2/3 in your poh. Start with 3 watering cans, coins and noted bagged plants in inventory",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312912"
+    },
+    {
+        "name": "Simple Fletching",
+        "description": "Fletches stuff.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312913"
+    },
+    {
+        "name": "Simple Fletching",
+        "description": "Fletches stuff.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.312933"
+    },
+    {
+        "name": "BB MahoganyHomes",
+        "description": "Completes mahogany home contracts for construction experience.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313059"
+    },
+    {
+        "name": "Auto Thiever",
+        "description": "Automatically trains thieving from lvl1 in Yanille/Ardougne, or steals cakes in Ardy, or steals from fruit stalls",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313065"
+    },
+    {
+        "name": ".Fletching",
+        "description": "Formerly PowFletching | Trains fletching like a pro. Create your task list of all logs/bows/arrows/darts/ bolts/javelins/shields.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313068"
+    },
+    {
+        "name": "BB Chaos Temple",
+        "description": "Grabs wines of zamorak at the chaos temple (1st floor) above Falador.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313114"
+    },
+    {
+        "name": "krul ColorFinder",
+        "description": "Helps find colors of non-working miner rocks",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313117"
+    },
+    {
+        "name": "OelRestocker",
+        "description": "Buys items up to certain threshold, equips items and withdraws items from bank.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313149"
+    },
+    {
+        "name": "krul NMZ",
+        "description": "Nightmarezone: Sips all potions, guzzles rock cake and flicks rapid heal",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313151"
+    },
+    {
+        "name": "OelCorruptedGauntlet",
+        "description": "Completes the corrupted gauntlet. Please read the instructions in the script starting UI.",
+        "premium": true,
+        "perMinuteRate": "10",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313152"
+    },
+    {
+        "name": "Proto Astral Crafter",
+        "description": "Crafts astral runes",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313153"
+    },
+    {
+        "name": "OelFightCaves",
+        "description": "Completes the fight caves",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313155"
+    },
+    {
+        "name": "OelFightCaves",
+        "description": "Completes the fight caves",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313156"
+    },
+    {
+        "name": ".Cooker",
+        "description": "Formerly PowCooker | AIO Cooking script | Wines | Fish | Meat | Potatoes | Pizzas",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313159"
+    },
+    {
+        "name": ".Cannonballs",
+        "description": "Very simple, it smiths cannonballs at edge furnace.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313180"
+    },
+    {
+        "name": ".BrimhavenAgility",
+        "description": "Brimhaven agility minigame to collect tickets",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313205"
+    },
+    {
+        "name": "OelCluehunterOutfit",
+        "description": "Gathers the clue hunter outfit. Eats any food in inventory",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313207"
+    },
+    {
+        "name": "BB Chaos Altar",
+        "description": "Trains prayer at the chaos altar in the wilderness. Requires burning amulets. Respawn point should be in lumbridge. Will log off if a potential threat is nearby and stop the script. Praying is optional.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313208"
+    },
+    {
+        "name": "WC Guild planker",
+        "description": "Cuts oaks/Withdraws logs from bank and converts them to planks. Uses deposit box for banking.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313210"
+    },
+    {
+        "name": "krul Fighter",
+        "description": "Fights anything, anywhere. Supports defender collecting.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313211"
+    },
+    {
+        "name": "krul Fighter",
+        "description": "Fights anything, anywhere. Supports defender collecting.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313234"
+    },
+    {
+        "name": "Simple Mining",
+        "description": "Does mining stuff. Including Desert(No banking/humidify), MLM",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313291"
+    },
+    {
+        "name": "Simple Mining",
+        "description": "Does mining stuff. Including Desert(No banking/humidify), MLM",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313293"
+    },
+    {
+        "name": "Simple Mining",
+        "description": "Does mining stuff. Including Desert(No banking/humidify), MLM",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313294"
+    },
+    {
+        "name": "Bank Deposit",
+        "description": "Deposits items into bank",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313296"
+    },
+    {
+        "name": "nscPickElves",
+        "description": "Pickpocket Elves in Priffdinas.Supports Brews, multiple Elves location, Shadow Veil and more!",
+        "premium": true,
+        "perMinuteRate": "5",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313298"
+    },
+    {
+        "name": "Proto Zulrah",
+        "description": "Start at the Ferox Enclave bank.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313300"
+    },
+    {
+        "name": "Humanlike Soul Wars",
+        "description": "Completes the Soul Wars minigame.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313327"
+    },
+    {
+        "name": ".BlastFurnace",
+        "description": "Goldsmith Gauntlets | Standard & Hybrid bars | Selling & Restocking",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313329"
+    },
+    {
+        "name": "Simple Agility",
+        "description": "Does agility stuff.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313330"
+    },
+    {
+        "name": "Tempoross - Debug",
+        "description": "Some testing",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313355"
+    },
+    {
+        "name": "OelGauntlet",
+        "description": "Completes the normal gauntlet. Please read the instructions in the script starting UI.",
+        "premium": true,
+        "perMinuteRate": "5",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313357"
+    },
+    {
+        "name": "FnSaltpetreDigger",
+        "description": "Start with empty inventory OR combine saltpetre with compost for Sulphurous fertiliser.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313358"
+    },
+    {
+        "name": "SwiftPeter",
+        "description": "Mine saltpetre",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313360"
+    },
+    {
+        "name": "Opentodt",
+        "description": "Does wintertodt.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313363"
+    },
+    {
+        "name": "FnVarrockMuseumXPLamps",
+        "description": "Cleans the finds to get xp lamps. Start with empty inventory.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313385"
+    },
+    {
+        "name": "DTecus",
+        "description": "Hunts for the valuable tecu",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313387"
+    },
+    {
+        "name": "krul Thiever",
+        "description": "Pickpockets any NPC",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313388"
+    },
+    {
+        "name": "Fossil Teak",
+        "description": "Cuts teaks on fossil island and banks at chest.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313423"
+    },
+    {
+        "name": "Proto Plank Picker",
+        "description": "Picks planks at the outpost",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313426"
+    },
+    {
+        "name": "OelBankSeller",
+        "description": "Sells everything in your bank above a certain threshold",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313428"
+    },
+    {
+        "name": "Simple Magic",
+        "description": "Does the following spell types: Alchemy/Enchant/Teleporting.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313431"
+    },
+    {
+        "name": "DFoundry",
+        "description": "Trains Smithing at the Giant's Foundry",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313434"
+    },
+    {
+        "name": "Chaos Altar By Humanlike",
+        "description": "Trains prayer at the Chaos altar, intended for the broke boys.Expect anywhere between 35k - 950k prayer xp an hour",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313436"
+    },
+    {
+        "name": "Fork's Rogues Den",
+        "description": "Completes Rogues Den",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313441"
+    },
+    {
+        "name": "Proto AIO Fighter",
+        "description": "An AIO Fighter.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313443"
+    },
+    {
+        "name": "PowLibrary",
+        "description": "Finds books in the Kourend/Arceuus library",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313445"
+    },
+    {
+        "name": "WidgetTapFinder",
+        "description": "Locate widgets via onscreen taps.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313449"
+    },
+    {
+        "name": "OelWoodcutter",
+        "description": "Cuts wood (Progressive/manual/banking/dropping)",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313451"
+    },
+    {
+        "name": "krul SpiceCollector",
+        "description": "Stand to curtain of your choice, uses karambwanji",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313454"
+    },
+    {
+        "name": ".GuardiansOfTheRift",
+        "description": "GOTR Minigame | Customisable runes | Guardians & Barriers | Agility shortcut | Portals",
+        "premium": true,
+        "perMinuteRate": "4",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313457"
+    },
+    {
+        "name": "nscEssenceMiner",
+        "description": "Mines Essence at Varrock. Must start the script inside Varrock East bank. Progressively upgrades for best usable pickaxe.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313459"
+    },
+    {
+        "name": "Fork's Drift Net Fishing",
+        "description": "Drift Net Fishes",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313461"
+    },
+    {
+        "name": ".Hunter",
+        "description": "Hunter - Current support: Birds, Lizards, Chins | Wilderness logout support",
+        "premium": true,
+        "perMinuteRate": "3",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313464"
+    },
+    {
+        "name": "BB GuthixRest",
+        "description": "Creates Guthix rest(3).\nStart near a bank with the required materials in your inventory or with an empty inventory.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313466"
+    },
+    {
+        "name": ".Prayer",
+        "description": "Formerly PowPrayer | Prayer script - Gilded altar - Rimmington, Phials - Yannille, Banking",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313468"
+    },
+    {
+        "name": "PowChickens",
+        "description": "Kills Chickens, buries bones and banks raw chicken and feathers",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313470"
+    },
+    {
+        "name": ".AgilityPyramid",
+        "description": "Agility pyramid for XP and GP. Have food, & waterskins in bank.",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313505"
+    },
+    {
+        "name": "krul Smelter",
+        "description": "Smelt bars or cannonballs",
+        "premium": false,
+        "perMinuteRate": "",
+        "author": "",
+        "version": "",
+        "category": "",
+        "updated": "2024-08-17 19:05:15.313508"
+    }
+]

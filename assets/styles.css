@@ -1,0 +1,113 @@
+#scripts-container {
+    padding: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ddd;
+    font-size: 14px;
+    transition: border 0.3s ease;
+}
+
+.search-bar:focus {
+    border-color: #007acc;
+}
+
+.script-list {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 600px) {
+    .script-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .script-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .script-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.script-item {
+    background: #2b2b2b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.script-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.script-item h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.script-item p.description {
+    margin: 0 0 15px;
+    font-size: 13px;
+    color: #ccc;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.script-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    margin-top: auto;
+}
+
+.script-footer .pricing {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.script-footer .pricing.paid {
+    color: #ff5722;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-button:hover {
+    background-color: #005f99;
+    transform: scale(1.05);
+}
