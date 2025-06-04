@@ -46,7 +46,7 @@ hide:
 Our home is on Discord. Join us to get manage your account, get help, and see more of what PowBot has to offer.
 
 <div style="text-align: center;">
-    <a href="https://discord.gg/your-discord-invite-code">
+    <a href="https://discord.gg/Y8TGmMh47r">
         <img src="https://img.shields.io/discord/341014842745815054?label=Join%20Us%20on%20Discord&style=for-the-badge&logo=discord&color=7289DA" alt="Join Us on Discord">
     </a>
 </div>
