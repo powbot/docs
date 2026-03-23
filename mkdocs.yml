@@ -4,6 +4,7 @@ extra_css:
   - assets/styles.css
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/images/pb_logo.png
   favicon: assets/favicon.ico
   font:
