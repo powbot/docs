@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /jdocs/
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://docs.powbot.org/sitemap.xml
